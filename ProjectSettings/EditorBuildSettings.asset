@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EcranTitre.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/Commandes.unity
+    guid: ee034ec7ce2ef524192fbd412f6bd9fd
+  - enabled: 0
+    path: Assets/Scenes/ChoixCamps.unity
+    guid: f8550137459b5c649b10bba7b51cf7f2
   m_configObjects: {}

@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private float speed = 5f;
-    private float jumpspeed = 2f;
+    /*private float speed = 5f;
+    private float jumpspeed = 2f;*/
+    public PlayerManager player;
 
     public Rigidbody2D rb;
 
@@ -13,25 +14,27 @@ public class PlayerMovement : MonoBehaviour
     public Sprite spriteCrouch;
     public Sprite spriteStand;
 
-    private bool isGrounded = true;
-    private bool isCrouching = false;
+    /*private bool isGrounded = true;
+    private bool isCrouching = false;*/
     // Update is called once per frame
     void Update()
     {
         //IsGrounded();
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            if(isCrouching == false)
+            if(player.isCrouching == false)
             {
-                Move(-speed);
+                player.isMoving = true;
+                Move(-player.speed);
             }
             
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-            if (isCrouching == false)
+            if (player.isCrouching == false)
             {
-                Move(speed);
+                player.isMoving = true;
+                Move(player.speed);
             }
             
         }
@@ -42,15 +45,19 @@ public class PlayerMovement : MonoBehaviour
         else if (Input.GetKeyUp(KeyCode.DownArrow))
         {
             spriterenderer.sprite = spriteStand;
-            isCrouching = false;
+            player.isCrouching = false;
         }
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            if (isCrouching == false)
+            if (player.isCrouching == false)
             {
                 Jump();
             }
             
+        }
+        if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
+        {
+            player.isMoving = false;
         }
     }
 
@@ -64,17 +71,22 @@ public class PlayerMovement : MonoBehaviour
 
     private void Crouch()
     {
-        spriterenderer.sprite = spriteCrouch;
-        isCrouching = true;
+        if(player.isGrounded == true)
+        {
+            spriterenderer.sprite = spriteCrouch;
+            player.isCrouching = true;
+
+        }
+        
     }
 
     private void Jump()
     {
-            if (isGrounded == true)
+            if (player.isGrounded == true)
         {
-            speed = jumpspeed;
+            player.speed = player.jumpspeed;
             rb.AddForce(Vector2.up * 6.5f, (ForceMode2D)ForceMode2D.Impulse);
-            isGrounded = false;
+            player.isGrounded = false;
 
         }
             
@@ -99,8 +111,8 @@ public class PlayerMovement : MonoBehaviour
         Debug.Log("ground test");
         if (collision.gameObject.name == "Sol")
         {
-            isGrounded = true;
-            speed = 5f;
+            player.isGrounded = true;
+            player.speed = 5f;
         }
         
     }

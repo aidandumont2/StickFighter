@@ -533,6 +533,31 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &1366690979 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5750746185677937351, guid: d170a595369251d4cbf76716691091d4, type: 3}
+  m_PrefabInstance: {fileID: 5750746186070412055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1366690986
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366690979}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 70ddde1b8842afe449109838ed13609a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &2048329777
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,12 +654,24 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5750746185677937348, guid: d170a595369251d4cbf76716691091d4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750746185677937348, guid: d170a595369251d4cbf76716691091d4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750746185677937348, guid: d170a595369251d4cbf76716691091d4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750746185677937348, guid: d170a595369251d4cbf76716691091d4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.135
       objectReference: {fileID: 0}
     - target: {fileID: 5750746185677937348, guid: d170a595369251d4cbf76716691091d4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.281
+      value: -2.71
       objectReference: {fileID: 0}
     - target: {fileID: 5750746185677937348, guid: d170a595369251d4cbf76716691091d4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -680,5 +717,6 @@ PrefabInstance:
       propertyPath: spriteCrouch
       value: 
       objectReference: {fileID: -2413806693520163455, guid: 3bff3a0fd51923b49adee7f56ba8bd1a, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5750746185677937350, guid: d170a595369251d4cbf76716691091d4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d170a595369251d4cbf76716691091d4, type: 3}

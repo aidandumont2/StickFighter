@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded = true;
     private bool isCrouching = false;
     private bool isStatic = false;
-    private bool isAttack = false;
+    private bool IsCrouch = false;
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
@@ -51,20 +51,19 @@ public class PlayerMovement : MonoBehaviour
 
         } else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            Crouch();
-        } else if (Input.GetKeyUp(KeyCode.Space)) {
+           Crouch();
+            isCrouching = true;
+            anim.SetBool("Accroupie", isCrouching);        
+        }
+        else if (Input.GetKeyUp(KeyCode.Space)) {
             if (isGrounded == false)
             {
-                isAttack = true;
+                
                 //Debug.Log(isAttack);
             }
             else {
                 anim.Play("AttaqueLégère"); 
             }
-            
-            
-
-
         }
         else if (Input.GetKeyUp(KeyCode.DownArrow))
         {
@@ -77,7 +76,7 @@ public class PlayerMovement : MonoBehaviour
                 
                 //anim.SetBool("Saut", true);
                 anim.SetBool("Static", false);
-
+                isCrouching = false;
                 Jump();
                 isGrounded = false;
                 //if (Input.GetKeyUp(KeyCode.Space))
@@ -94,7 +93,10 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             isStatic = true;
+            isCrouching = false;
             anim.SetBool("MarcheAvant", false);
+
+            
         }
         
     }
@@ -111,6 +113,7 @@ public class PlayerMovement : MonoBehaviour
     private void Crouch()
     {
         spriterenderer.sprite = spriteCrouch;
+        anim.SetBool("Accroupie", true);
         isCrouching = true;
         isStatic = false;
     }

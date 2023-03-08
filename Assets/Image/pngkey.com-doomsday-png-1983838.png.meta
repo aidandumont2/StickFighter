@@ -1,0 +1,1081 @@
+fileFormatVersion: 2
+guid: c425acbce460a2841bd4cfcc78e63e42
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a48806bb2efb748905755b73066bf5
+      internalID: 1262315425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 529
+        width: 63
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e596dab7e7b68f449b88b656c058a14
+      internalID: -1836747874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 468
+        width: 66
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab51508b73ab67c4ba2ed2f3276495f6
+      internalID: -904005168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 468
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9285fa86068354f8d468663fe3cf6b
+      internalID: 1960972025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_4
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 468
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ba2884300dd844a8ed28df2a670b52
+      internalID: 942982506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_5
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 464
+        width: 66
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a960269332bf04c97f0169ae538c59
+      internalID: -1719654328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_6
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 464
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea8ec6849c22a1469a58e209acfd036
+      internalID: -619928694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_7
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 465
+        width: 68
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c706b0137bb1324bb2fbd16153a14da
+      internalID: -37084888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_8
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 383
+        width: 178
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607bd3f77af1de740b13e1371615957d
+      internalID: 1631258944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 521
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11658f89f18668d4e850694ff4c0999a
+      internalID: -1191226485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_10
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 521
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3d3b5f86da29443bccbd223d36e5c7
+      internalID: -239055728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_11
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 521
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f4d7db346a250478ffceabf5715361
+      internalID: -637684712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 521
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f4d43139290194a962e427dadd4088
+      internalID: 1872111584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_13
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 521
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cc4ac3283bbc647ab9987f5ed7e8f6
+      internalID: 1570603620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_14
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 521
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e483b84901f3c94fbc71839f589eeac
+      internalID: 1215059882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_15
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 521
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec831bf071a1cea43b31b53845c01b85
+      internalID: -1518921710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_16
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 520
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee8cc80081366d4eb57ce6bece21ed8
+      internalID: 2071643856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_17
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 366
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec86f66ea6a371a4abf38c6440ac44a9
+      internalID: -2116042534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_18
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 362
+        width: 55
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fa463efb83ec54b908450b71348e2e
+      internalID: 1776832420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_19
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 363
+        width: 57
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbecef312d748034e898556c65506b03
+      internalID: -1939394306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_20
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 367
+        width: 75
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6f10ebb4ec1f44cb34d7f6000d6ada
+      internalID: -1980872789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_21
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 363
+        width: 45
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1bef035962ef1459caf8b2e59e5153
+      internalID: -442066284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_22
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 365
+        width: 55
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e597a8edc6f81d948997b0973fab4f0f
+      internalID: -1108815871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_23
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 367
+        width: 45
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca53b45285078de44aee07c9a6c92615
+      internalID: -1667265510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_24
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 335
+        width: 116
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55806f3a28ec84c4c9f62e24341f3b1f
+      internalID: 271223276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_25
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 226
+        width: 158
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fde8a0a587ba34c93c7f0a27e6024c
+      internalID: 1915207391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_26
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 249
+        width: 76
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bf9f0bbc2edab4bac23cfd6c88e31e
+      internalID: -1200492255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_27
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 254
+        width: 83
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dab6d8126238943a0db032ed0a03a1
+      internalID: 1207697437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_28
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 263
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da42f01c0ecdfb42853c27f3dcc9fd2
+      internalID: 1229552856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_29
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 249
+        width: 58
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651c2eeffbd537c4f92d20c750f7583a
+      internalID: 1643439823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_30
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 247
+        width: 107
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2b31f24c7b92c478f5b365839ff69c
+      internalID: -109456191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_31
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 110
+        width: 76
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcb4b380aa0de64d8c2132bef40a652
+      internalID: -1189769031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_32
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 112
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8654fd4f7d3c2f148b65abab26c9afc0
+      internalID: 243134413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_33
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 108
+        width: 104
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53ce5a376444894f9729394bd6b6742
+      internalID: -168002594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_34
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 108
+        width: 104
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad24d85fe818c44a9948f280ebfd079
+      internalID: 1463972746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_35
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 108
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6df4096488ff064087cac49505a6be8
+      internalID: 1314794384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_36
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 105
+        width: 91
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ee91c5a9b8d134eb1713962a5874f7
+      internalID: 592376616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_37
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 102
+        width: 87
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c5c7db96037c04ba4b33ce7ce54f71
+      internalID: 2103615045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_38
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 97
+        width: 71
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835e3ecd97b784849b04dcdaf0cac3de
+      internalID: -730407925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_39
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 0
+        width: 66
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1064f5024bac0f46af9cc221801f818
+      internalID: 265122642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_40
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 11
+        width: 89
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ca888fde8705e45a92c2be3559e820
+      internalID: -746321877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_41
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 8
+        width: 102
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972fff1f7f725714eb220b4a5006aa26
+      internalID: -1642879871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doomsday-png-1983838_42
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 6
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de9df5aa61e2f54ca5d27542921a9af
+      internalID: -1563962135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pngkey.com-doomsday-png-1983838_16: 2071643856
+      pngkey.com-doomsday-png-1983838_10: -239055728
+      pngkey.com-doomsday-png-1983838_19: -1939394306
+      pngkey.com-doomsday-png-1983838_28: 1229552856
+      pngkey.com-doomsday-png-1983838_37: 2103615045
+      pngkey.com-doomsday-png-1983838_17: -2116042534
+      pngkey.com-doomsday-png-1983838_1: -1836747874
+      pngkey.com-doomsday-png-1983838_20: -1980872789
+      pngkey.com-doomsday-png-1983838_22: -1108815871
+      pngkey.com-doomsday-png-1983838_0: 1262315425
+      pngkey.com-doomsday-png-1983838_2: -904005168
+      pngkey.com-doomsday-png-1983838_26: -1200492255
+      pngkey.com-doomsday-png-1983838_14: 1215059882
+      pngkey.com-doomsday-png-1983838_42: -1563962135
+      pngkey.com-doomsday-png-1983838_6: -619928694
+      pngkey.com-doomsday-png-1983838_15: -1518921710
+      pngkey.com-doomsday-png-1983838_39: 265122642
+      pngkey.com-doomsday-png-1983838_35: 1314794384
+      pngkey.com-doomsday-png-1983838_8: 1631258944
+      pngkey.com-doomsday-png-1983838_11: -637684712
+      pngkey.com-doomsday-png-1983838_36: 592376616
+      pngkey.com-doomsday-png-1983838_21: -442066284
+      pngkey.com-doomsday-png-1983838_33: -168002594
+      pngkey.com-doomsday-png-1983838_9: -1191226485
+      pngkey.com-doomsday-png-1983838_5: -1719654328
+      pngkey.com-doomsday-png-1983838_41: -1642879871
+      pngkey.com-doomsday-png-1983838_7: -37084888
+      pngkey.com-doomsday-png-1983838_24: 271223276
+      pngkey.com-doomsday-png-1983838_12: 1872111584
+      pngkey.com-doomsday-png-1983838_4: 942982506
+      pngkey.com-doomsday-png-1983838_30: -109456191
+      pngkey.com-doomsday-png-1983838_34: 1463972746
+      pngkey.com-doomsday-png-1983838_25: 1915207391
+      pngkey.com-doomsday-png-1983838_38: -730407925
+      pngkey.com-doomsday-png-1983838_40: -746321877
+      pngkey.com-doomsday-png-1983838_29: 1643439823
+      pngkey.com-doomsday-png-1983838_23: -1667265510
+      pngkey.com-doomsday-png-1983838_27: 1207697437
+      pngkey.com-doomsday-png-1983838_3: 1960972025
+      pngkey.com-doomsday-png-1983838_31: -1189769031
+      pngkey.com-doomsday-png-1983838_18: 1776832420
+      pngkey.com-doomsday-png-1983838_13: 1570603620
+      pngkey.com-doomsday-png-1983838_32: 243134413
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

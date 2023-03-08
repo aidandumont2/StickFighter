@@ -35,7 +35,8 @@ public class PlayerMovement : MonoBehaviour
 
             if (isCrouching == false)
             {
-
+                anim.SetBool("MarcheAvant", true);
+                anim.SetBool("Static", false);
                 Move(-speed);
             }
 
@@ -65,11 +66,12 @@ public class PlayerMovement : MonoBehaviour
                 anim.Play("AttaqueLégère"); 
             }
         }
-        else if (Input.GetKeyUp(KeyCode.DownArrow))
+        if (Input.GetKeyUp(KeyCode.DownArrow))
         {
             spriterenderer.sprite = spriteStand;
             isCrouching = false;
-        } else if (Input.GetKeyDown(KeyCode.UpArrow))
+        } 
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             if (isCrouching == false)
             {

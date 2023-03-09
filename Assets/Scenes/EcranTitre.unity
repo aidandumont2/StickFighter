@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 163352741}
   - component: {fileID: 163352742}
+  - component: {fileID: 163352743}
   m_Layer: 0
   m_Name: ChoixBouton
   m_TagString: Untagged
@@ -168,6 +169,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveStep: 1
+--- !u!114 &163352743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163352740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d41c602686ea44f86a5ae60930cd72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &507115637
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,9 +944,10 @@ GameObject:
   - component: {fileID: 1450386130}
   - component: {fileID: 1450386129}
   - component: {fileID: 1450386128}
+  - component: {fileID: 1450386131}
   m_Layer: 5
   m_Name: Commandes
-  m_TagString: Untagged
+  m_TagString: BoutonMenu
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1053,6 +1067,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1450386126}
   m_CullTransparentMesh: 1
+--- !u!65 &1450386131
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450386126}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 400, y: 100, z: 100}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1588720701
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,9 +1229,10 @@ GameObject:
   - component: {fileID: 2010159255}
   - component: {fileID: 2010159254}
   - component: {fileID: 2010159253}
+  - component: {fileID: 2010159256}
   m_Layer: 5
   m_Name: Jouer
-  m_TagString: Untagged
+  m_TagString: BoutonMenu
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1324,6 +1352,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2010159251}
   m_CullTransparentMesh: 1
+--- !u!65 &2010159256
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010159251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 400, y: 100, z: 100}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2052357225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,9 +1377,10 @@ GameObject:
   - component: {fileID: 2052357229}
   - component: {fileID: 2052357228}
   - component: {fileID: 2052357227}
+  - component: {fileID: 2052357230}
   m_Layer: 5
   m_Name: TableauScore
-  m_TagString: Untagged
+  m_TagString: BoutonMenu
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1458,3 +1500,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052357225}
   m_CullTransparentMesh: 1
+--- !u!65 &2052357230
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052357225}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 400, y: 100, z: 100}
+  m_Center: {x: 0, y: 0, z: 0}

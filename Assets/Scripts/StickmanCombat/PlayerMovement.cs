@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,8 +7,10 @@ public class PlayerMovement : MonoBehaviour
 {
     private float speed = 5f;
     private float jumpspeed = 2f;
+    
 
     public Rigidbody2D rb;
+    Animator anim;
 
     public SpriteRenderer spriterenderer;
     public Sprite spriteCrouch;
@@ -15,43 +18,86 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isGrounded = true;
     private bool isCrouching = false;
+    private bool isStatic = false;
+    void Start()
+    {
+        anim = gameObject.GetComponent<Animator>();
+    }
     // Update is called once per frame
     void Update()
     {
+        anim.SetBool("Static",isStatic);
+        anim.SetBool("Sol", isGrounded);
         //IsGrounded();
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            if(isCrouching == false)
+
+            if (isCrouching == false)
             {
+                anim.SetBool("MarcheAvant", true);
+                anim.SetBool("Static", false);
                 Move(-speed);
             }
-            
-        }
-        else if (Input.GetKey(KeyCode.RightArrow))
+
+        } if (Input.GetKey(KeyCode.RightArrow))
         {
             if (isCrouching == false)
             {
+                if (isGrounded == true)
+                    Debug.Log("MarcheAvant");
+                    anim.SetBool("Static", false);
+                anim.SetBool("MarcheAvant", true);                
                 Move(speed);
             }
-            
-        }
-        else if (Input.GetKeyDown(KeyCode.DownArrow))
+
+        }if (Input.GetKey(KeyCode.DownArrow))
         {
-            Crouch();
+            if (isGrounded == true)
+                isCrouching = true;
+                Crouch();
+            Debug.Log(isStatic);
         }
-        else if (Input.GetKeyUp(KeyCode.DownArrow))
-        {
-            spriterenderer.sprite = spriteStand;
-            isCrouching = false;
+        else if (Input.GetKeyUp(KeyCode.E)) {
+            if (isGrounded == false)
+            {
+                
+                //Debug.Log(isAttack);
+            }
+            else {
+                anim.Play("AttaqueLégère"); 
+            }
         }
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             if (isCrouching == false)
             {
+                
+                //anim.SetBool("Saut", true);
+                anim.SetBool("Static", false);
+                isCrouching = false;
                 Jump();
+                isGrounded = false;
+                //if (Input.GetKeyUp(KeyCode.Space))
+                //{
+                    //anim.SetBool("AttaqueLégère", true);
+                    //anim.Play("SautAttaque");
+                //}
+
             }
-            
+
+        } if (Input.GetKeyDown(KeyCode.A)) {
+            anim.Play("AttaqueLourde");
         }
+        if(Input.anyKeyDown == false) 
+        {
+            isStatic = true;
+            isCrouching = false;
+            anim.SetBool("Accroupie", false);
+           // anim.SetBool("MarcheAvant", false);
+
+
+        }
+        
     }
 
 
@@ -59,13 +105,17 @@ public class PlayerMovement : MonoBehaviour
     {
         transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
         //transform forward => new vector(0,0,1)
+        isStatic = false;
 
     }
 
     private void Crouch()
-    {
+    {            
         spriterenderer.sprite = spriteCrouch;
-        isCrouching = true;
+        isStatic = false;
+        anim.SetBool("Accroupie", isCrouching);
+        anim.SetBool("Static", isStatic);
+        
     }
 
     private void Jump()
@@ -74,7 +124,13 @@ public class PlayerMovement : MonoBehaviour
         {
             speed = jumpspeed;
             rb.AddForce(Vector2.up * 6.5f, (ForceMode2D)ForceMode2D.Impulse);
-            isGrounded = false;
+            anim.Play("Saut");
+            if (Input.GetKeyUp(KeyCode.Space) && Input.GetKeyUp(KeyCode.LeftArrow))
+            {
+                anim.Play("SautAttaque");
+            }
+                isGrounded = false;
+            isStatic= false;
 
         }
             

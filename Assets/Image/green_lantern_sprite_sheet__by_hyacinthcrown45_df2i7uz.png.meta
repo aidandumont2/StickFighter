@@ -1,0 +1,4557 @@
+fileFormatVersion: 2
+guid: c425713ed9ec47840b06af6434b0b0b8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2357
+        width: 117
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40304bd10412648409ed536e616a0746
+      internalID: 1759360754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2358
+        width: 117
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbe3f99f2963284db15cd5f4a4b3015
+      internalID: -1593237258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 2357
+        width: 117
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a771ac0692e59d34186508521dec061a
+      internalID: 1006747671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_3
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 2352
+        width: 116
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58a8fdc4ccf8dc49b1ba5d07e76afee
+      internalID: -1561040352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_4
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2358
+        width: 87
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346795304dafe6c4290ab2fb2aec6f46
+      internalID: -1828657437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_5
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 2385
+        width: 74
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8553178a4c11e44be995c3d790bfbb
+      internalID: 2098907438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_6
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 2379
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214a07afbc1af8e4c85af56544271226
+      internalID: 420210665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_7
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 2360
+        width: 86
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ef63f6e42fe0e4d9fa59973a0ce9d2
+      internalID: 518731363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_8
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 2364
+        width: 74
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f951cffee6705924ea5b3b3f9c984cd5
+      internalID: 1310265794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_9
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 2376
+        width: 499
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6985d67070de8147a9fbb725de49c5b
+      internalID: -939827936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_10
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 2392
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e5d635af068c34e85c2ecf12d281e6
+      internalID: -723315503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_11
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 2394
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcc24e1ff83d01418758a8644d929f4
+      internalID: 1750530430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_12
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 2397
+        width: 72
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70175d744924f9e40a15c53a1b9a1be3
+      internalID: 1351496182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_13
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2398
+        width: 72
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21e74b58b66b3541b2e7030468c088a
+      internalID: -432931208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_14
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2188
+        width: 105
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eea54d8e9ad6d94096e24190cb7be72
+      internalID: -1365604867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_15
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2202
+        width: 78
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfa182acf03e0c4fb4468e8d2af25a4
+      internalID: 805190447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_16
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2199
+        width: 98
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8213ea5226935ef48be76b6e6912c529
+      internalID: 1534014340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_17
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 2210
+        width: 76
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e9de7fee468504396d665c97475a37
+      internalID: -1761137674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_18
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2178
+        width: 61
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607e20b4dabcb8a4ea1b7181623939d9
+      internalID: 1687937843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_19
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 2178
+        width: 77
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e947b4037b677a4fb58ba8846345592
+      internalID: -146140935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_20
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 2184
+        width: 103
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd0ff59042af5b42a8aadab7d142321
+      internalID: -1117734035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_21
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2184
+        width: 93
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11fd0a1f32c51041bd20cb422cf7106
+      internalID: -1212354950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_22
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 2177
+        width: 84
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793d9b3ddb9f1f443a57cc40fcdd6bb8
+      internalID: 1510257238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_23
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 2200
+        width: 98
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30b78e3495118e4f81fb480c6a0abfe
+      internalID: 6550209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_24
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 2245
+        width: 73
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d446f0a2475f9274f8396965a3627f38
+      internalID: -1668454972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_25
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 2271
+        width: 86
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94118e26ca1320445b55b6d0c008c914
+      internalID: -2144197316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_26
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2272
+        width: 84
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a93a50db788534e95ab7bacce0b7f8
+      internalID: 1767715041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2012
+        width: 71
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa493196136ccb847a4959a8aa525faa
+      internalID: -365827325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_28
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2007
+        width: 104
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e190c901e975aa34692f7fc193146abe
+      internalID: 960171503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_29
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 2023
+        width: 91
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b517751f44d29964091288cbe5177b36
+      internalID: -669236323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_30
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 2033
+        width: 88
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0347da52b46aa847aef70c937f9a8fc
+      internalID: -2048355807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_31
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 2028
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509b3c9bdf98b0e42a54fcde011af655
+      internalID: 7581126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_32
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 2038
+        width: 104
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd60b388469f694b99558df94cc885e
+      internalID: -828547673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_33
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2033
+        width: 127
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec299ce9c33b2f498a27e1330370492
+      internalID: -2098350537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_34
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 2021
+        width: 52
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba6a250228753b478e966da64aa02de
+      internalID: 822201591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_35
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2059
+        width: 60
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda996d996c4f8a43be20353c1397256
+      internalID: 1517804891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_36
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 2037
+        width: 109
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db18aaa1acf638444b5b936f5260a5ff
+      internalID: 845740546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_37
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 2038
+        width: 104
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182160d93c9756f478293d973d7839d5
+      internalID: 2117920366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_38
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 2037
+        width: 92
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44479c0b77fe46c409464ca02e762ecb
+      internalID: 503939241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_39
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1849
+        width: 85
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df681102f534804a90ef83835b35152
+      internalID: 317435945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_40
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1806
+        width: 81
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18647917e297e9f4d85174b1341d2075
+      internalID: 1403061249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_41
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1806
+        width: 82
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6717f9844d624b74d91e7666693c6b2f
+      internalID: 312523941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_42
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1800
+        width: 85
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba6b426d66a6fb43b98a6d7821cd2e2
+      internalID: 741579459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_43
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1800
+        width: 84
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2784936a54075044979594617884a32
+      internalID: -825266868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_44
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1796
+        width: 84
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6631cf889181bbd4596537c3853e21d4
+      internalID: -2012511458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_45
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1795
+        width: 84
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b2f004228f24840a564a5b29a1af61
+      internalID: -652378645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_46
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1816
+        width: 121
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87412d98bb60904b95ec5228fe5cf74
+      internalID: -1954313295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_47
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1822
+        width: 66
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7705116b8239fc447a08ab1c3455addc
+      internalID: 1809098403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_48
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1822
+        width: 72
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3caf10b52d32e4bae229db21ac5ce6
+      internalID: 1334616664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_49
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1818
+        width: 85
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a130e36f2327b47ac1ba85fce7189b
+      internalID: 477104286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_50
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1815
+        width: 79
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51687ad165e5fad49b04362472701cde
+      internalID: 1458196381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_51
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1807
+        width: 76
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17d5032e3133b149b9f0098e66b4250
+      internalID: -1364803542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_52
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1663
+        width: 75
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b12ef7abd705d4c95b03516f287654
+      internalID: 308099177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_53
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1661
+        width: 87
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150e05958f001f74890d5352ffdbb232
+      internalID: 1393632410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_54
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1656
+        width: 111
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0f43c926469ed4aba1702518701f54
+      internalID: -1388324093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_55
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1653
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e892cb317452d419d2a8d1eb49e769
+      internalID: 1733886746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_56
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1639
+        width: 72
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c7a1765adcf90489418281d0db1fe2
+      internalID: -2077786427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_57
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1639
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e142a3d6035db24289e995a8def85bc
+      internalID: -140482041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_58
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1640
+        width: 127
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021da1f551244ef49978a541c90226fc
+      internalID: -943164012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_59
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1639
+        width: 73
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee57086d81ae3b4b89487375af6ee44
+      internalID: -276160833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_60
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1649
+        width: 89
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee31935656d024478b996fef440a670
+      internalID: -1487329656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_61
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1645
+        width: 74
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa930756e5bfb944aac566d5a36b033
+      internalID: 112746442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_62
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1653
+        width: 118
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee1c7199eeb2114684699be8951c88d
+      internalID: -924760412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_63
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 1655
+        width: 110
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b83d3e46a245e48875e4a267243221
+      internalID: -267646605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_64
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1501
+        width: 94
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1460a5c898dbde4fafc1cf61ea2f2f2
+      internalID: 772055912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_65
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1502
+        width: 148
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2a52b5d59e1d5429fe8bceee5aacf0
+      internalID: -1651471101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_66
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1492
+        width: 143
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e946f1db8c91e41ad669979aac59d5
+      internalID: 772556558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_67
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1486
+        width: 94
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d9f47abfc45a944acfdfd6bd4c0f1c
+      internalID: 147843525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_68
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1495
+        width: 114
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d628c87097347b44ba5aecbc0eafee5
+      internalID: -356522922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_69
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1502
+        width: 142
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fbe9560293d3041b157f2e64f62f46
+      internalID: 1831391213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_70
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1506
+        width: 146
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037e88266627081429c04aa10b73842b
+      internalID: -258395732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_71
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1492
+        width: 90
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c62f55683d02740a04826cfb28fc21
+      internalID: 1277364794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_72
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1490
+        width: 85
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc61130e434edc4db1391fbce4640a7
+      internalID: -2067478174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_73
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1486
+        width: 134
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99532b19f9db4db43b94f3400df77e65
+      internalID: 197031549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_74
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1351
+        width: 129
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219769f67832fbc4097578f34d222053
+      internalID: 803080849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_75
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1357
+        width: 72
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e837dd55f640c14a98e2468377840f4
+      internalID: 1839068372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_76
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1343
+        width: 86
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25730baf1586edf42a47178dc0758c1d
+      internalID: 1161830389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_77
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1352
+        width: 79
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adadc2ba0034b554f9f9f63bbab61a4c
+      internalID: 1502659034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_78
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1362
+        width: 188
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b086b7dc3dd4d847940a60ccecd2516
+      internalID: -9551157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_79
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1363
+        width: 177
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7813880c82949f4196f642b9ce19b04
+      internalID: -1460438626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_80
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1402
+        width: 68
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748c9f9328a16c748a40ae7d3f309f45
+      internalID: -905733254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_81
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1402
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cce58b944b644742ac6f7204ef811db
+      internalID: -166094942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_82
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1403
+        width: 118
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1908e5691613e5a45ad00936894917ae
+      internalID: 1726921741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_83
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1400
+        width: 115
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b4b9b224387da4bbe9f86693f9bcd2
+      internalID: 669072158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_84
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1403
+        width: 78
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3284a8d55790b3540a51475e33395132
+      internalID: -706864879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_85
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1240
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae21e3014b3bb640ac392a54da2e771
+      internalID: -526723789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_86
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1243
+        width: 123
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6597192d05bcf0a4ea9b34baeb31e601
+      internalID: -2028718202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_87
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1240
+        width: 115
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301c244f2422a9b4680b86c2ac5f6f3a
+      internalID: 1511026993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_88
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1237
+        width: 71
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cda6847f55ccc419e0760a8386985f
+      internalID: -1562182733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_89
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1240
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8327255acb0d0ac49958d38d4607397b
+      internalID: 1572643021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_90
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1238
+        width: 105
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a98b8764fc8414790dbbc8095fbefd
+      internalID: 1056313386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_91
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1245
+        width: 99
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6349e0d025a1cd8439a23ff2a38c76be
+      internalID: -1129172967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_92
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1265
+        width: 79
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a227ef510acdd4282e19493112605a
+      internalID: -37202077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_93
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1268
+        width: 105
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df26d69cccc7af40abbaf91ed4837ed
+      internalID: 1120648911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_94
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1276
+        width: 143
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533f39c0b92cd6a489284ecef7624e6a
+      internalID: -1896834163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_95
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1277
+        width: 136
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffa4b99eef0b944e8bfcae8c3b2b78f
+      internalID: -537152736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_96
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1284
+        width: 116
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1d0fc5d7180fd4999cffa1b07d0ae3
+      internalID: 215576992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_97
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1142
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca78964f174df24f8af37c9f88926a3
+      internalID: 113111090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_98
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1138
+        width: 74
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4954c65025c06d146938b8466c877408
+      internalID: -1378927250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_99
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1142
+        width: 76
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208675a9e69226241b1be92765fc4cb9
+      internalID: -1621155705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_100
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1140
+        width: 71
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef5b510c3f0bc34bb4a6585531611f6
+      internalID: 999551445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_101
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1147
+        width: 69
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f440a24ac17d5842afadcff8491a404
+      internalID: 57019357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_102
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1148
+        width: 65
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca75d7082cd8e34da4ab647c8dd75fd
+      internalID: -1151317036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_103
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1146
+        width: 66
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6eb3e1cdd86ea42a5a4a8e86d5276c
+      internalID: 69078412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_104
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1137
+        width: 79
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fc5ce032eb572419a8cb123afac5ae
+      internalID: 1314067462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_105
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1152
+        width: 94
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92464972ca9c20419096eee551e804a
+      internalID: 751310025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_106
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1162
+        width: 124
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23565ca6ad92eb2498f36f1b2e36bb66
+      internalID: 393975463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_107
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1165
+        width: 154
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b569534efcc047d49b68789ffbcd93c6
+      internalID: 1604739626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_108
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1165
+        width: 124
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a24d6f665b34a846b8c320981dd67f7
+      internalID: -1295276095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_109
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1172
+        width: 105
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575e2f66ca895c84582d4b3144a23737
+      internalID: 2021673288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_110
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1052
+        width: 126
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a441230dff8f75743a9b844315831cdd
+      internalID: -1014424925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_111
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1030
+        width: 93
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669f3064241bcf546abc411f2e7ef6fd
+      internalID: -1219484688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_112
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1024
+        width: 111
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea468c0bcafa804b9b58452eaa0d1a7
+      internalID: -616051741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_113
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1026
+        width: 107
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a66a14cb55fa74f90388d76e66bd0b
+      internalID: -447491412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_114
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1035
+        width: 71
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a183782be1d69a4459f5db214e419ee5
+      internalID: -343045423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_115
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1035
+        width: 81
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcedc44245b64174ea324aa649e00fa7
+      internalID: -1369631083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_116
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1035
+        width: 126
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a42024ce9302594d825318b946da89d
+      internalID: 199192403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_117
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1043
+        width: 120
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e976f51f4dd0da743a5d1a5b1798a4aa
+      internalID: -905308796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_118
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1032
+        width: 102
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa50d7e2b676adb4190d6d1b8d17c125
+      internalID: 1030457356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_119
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1021
+        width: 79
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06bd8fd7b23a184e922692a72218431
+      internalID: 1831789865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_120
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1032
+        width: 139
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09920ae65687bad44acdec4fe68d149b
+      internalID: -1552897665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_121
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1028
+        width: 138
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc909277453eece45b50a5df84eea703
+      internalID: -317389839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_122
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 939
+        width: 108
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c5571e6e4b6424c80df90a0e9857c0
+      internalID: 52524716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_123
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 936
+        width: 112
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861821480fb562849965b83604eeaa34
+      internalID: -517911283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_124
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 916
+        width: 76
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf63aa8cf0e3d8942b7cb9594e452c6b
+      internalID: -1171189323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_125
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 915
+        width: 77
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe5af197124e1247b1bcbfd7d59874e
+      internalID: 2057582940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_126
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 909
+        width: 80
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2936e91799fc134a9e3a21ba7115b1b
+      internalID: -1440861920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_127
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 906
+        width: 67
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6877b851e0a18e242ab1159851abfc00
+      internalID: -1580344337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_128
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 910
+        width: 136
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27c098d96b26c94caca1819f929c054
+      internalID: 900094595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_129
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 910
+        width: 131
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df7f36ce090553408aca7c92aec5180
+      internalID: 444762982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_130
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 916
+        width: 90
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64837022e53138149bc37d1853ab4a00
+      internalID: -748673376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_131
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 921
+        width: 77
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e818dfe65543cbb42aa331f4d21c210e
+      internalID: 1511669836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_132
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 909
+        width: 86
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33303511e4618bb4e9e9849a19a538ea
+      internalID: 854953678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_133
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 903
+        width: 67
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673ff98481ced7d46885af9ca276ef55
+      internalID: 1356125218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_134
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 822
+        width: 109
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0ed72b4b5010d4db001ff0efd030cc
+      internalID: 1060804214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_135
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 810
+        width: 96
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117a85f587e8e4147867c40c959c8b1a
+      internalID: -406604809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_136
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 805
+        width: 94
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c0e99e5e4be8f439ca01899594f045
+      internalID: 171902989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_137
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 804
+        width: 77
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3e8a8a336532e45ab4c264d3a3386e
+      internalID: 1234246089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_138
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 799
+        width: 76
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daa000fb0be6e448942a6f1425b490b
+      internalID: 1913416383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_139
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 789
+        width: 92
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56824175777b3047bdc74b8128736df
+      internalID: 988524459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_140
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 783
+        width: 109
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3099ca2e0123924390a77e24804e5e2
+      internalID: 382617585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_141
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 783
+        width: 105
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859978bf7d6170f4698bebfca410694a
+      internalID: 2087622843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_142
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 787
+        width: 144
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb63c7173033324baebab2ba3754def
+      internalID: 1416789698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_143
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 799
+        width: 100
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49b3aac311880e4b88d343a28cca803
+      internalID: -5351908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_144
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 775
+        width: 86
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110884c1311f6594491a9d7c586c86e9
+      internalID: -112827521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_145
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 783
+        width: 116
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0412aaf4ab8064e43bafe0f182824b93
+      internalID: 1052337829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_146
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 703
+        width: 170
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642493caac40dc34f9f6468198828548
+      internalID: 1023443174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_147
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 688
+        width: 122
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb848b03737cd2147b026d886a9bd4d6
+      internalID: -1544803132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_148
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 662
+        width: 73
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b649f3b580a3f3a4b87523b837602e4f
+      internalID: -1298197373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_149
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 665
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1226af44c8b81489e3e32ba87be25c
+      internalID: 405270870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_150
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 646
+        width: 100
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80851a0d1ec4cdb419868a006ade6a39
+      internalID: -1853159374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_151
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 641
+        width: 95
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20146b48cb1ba68439b94d0efd505a93
+      internalID: 46759046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_152
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 651
+        width: 107
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b2fa21d03cb024db0987ff07758803
+      internalID: 373749010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_153
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 654
+        width: 129
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b88f9be63abdc4449d4b43f7b565840
+      internalID: -1101121326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_154
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 656
+        width: 98
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3009bed4d901dc744b0cab0a50d61e71
+      internalID: -1093142389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_155
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 645
+        width: 76
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b003e2b9f26561c46b93fed01af55ac5
+      internalID: -1867424577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_156
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 650
+        width: 80
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59755fdfee6262f44939b38701edee5a
+      internalID: 320695339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_157
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 672
+        width: 73
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cf91461eb346845b1ca5aabd9004cd
+      internalID: 1116170059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_158
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 546
+        width: 93
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5fb6bf5ed748e46b8e22e5b3dd7973
+      internalID: 1051926299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_159
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 535
+        width: 65
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7d750b3b0271f498b87505f0a01e2a
+      internalID: -521755060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_160
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 535
+        width: 87
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5951f5beaa80fb84eacac91ab4f5b7af
+      internalID: -204207658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_161
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 532
+        width: 82
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b86dbc690feaf4bbf3d290b41d65e5
+      internalID: 801022569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_162
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 526
+        width: 105
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec08059c2a876a241a73b6b7eb67f5ec
+      internalID: -1169091041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_163
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 522
+        width: 100
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763e6af2507067346bbc5460a8835bf8
+      internalID: -1436194726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_164
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 515
+        width: 89
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04be3048c50b9514a99ebc5e11f8eb82
+      internalID: -442214801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_165
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 512
+        width: 77
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c38281b2b1bc914aa207f40ca3e6c4b
+      internalID: 125956497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_166
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 510
+        width: 86
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a5f7314b514524dabbdc5312461c12
+      internalID: 230337201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_167
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 504
+        width: 88
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640096be9aeebbe44b060aaa306a8222
+      internalID: -223946496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_168
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 500
+        width: 77
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d1ab0707756a14890f4e4204ed4512
+      internalID: -258636275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_169
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 401
+        width: 102
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8be7a725e4a5548b36ca959477ae5e
+      internalID: -2049245180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_170
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 405
+        width: 105
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfe8cdf0850bce44b6134c00d77c883
+      internalID: 1704406981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_171
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 411
+        width: 106
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea62225d0b55ffa45be8b8e3719099e8
+      internalID: 2063248200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_172
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 401
+        width: 100
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724924d6bb4342e4f9acb379b18492ce
+      internalID: 1223878216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_173
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 399
+        width: 111
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50f91c8b85e831499f65e532a4cb11c
+      internalID: -37581678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_174
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 400
+        width: 85
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c725d29eb1748844b325a756e98414a
+      internalID: -441333480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_175
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 403
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57743bd0892fbd2448b126f3f1c04bd7
+      internalID: -1721102334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_176
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 395
+        width: 111
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e268a0a8e172c4ebcae36468c8a53f
+      internalID: -1338040537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_177
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 395
+        width: 74
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f140663bc0720f44806839d00730a60
+      internalID: 583812981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_178
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 403
+        width: 90
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2da0c689f5acbf4f96160a1ae31a1a8
+      internalID: -4061623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_179
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 408
+        width: 89
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bba9301f5e8d546ae92b9ce478d464
+      internalID: -1125269932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_180
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 407
+        width: 66
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0542711a44561a45aaa364bda87d3be
+      internalID: 984834578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_181
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 406
+        width: 107
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401406ceb5e07214fb723e411909036e
+      internalID: 1664146301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_182
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 300
+        width: 129
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7f1ae4437bc4d4fbec2ccd6e34694f
+      internalID: 1161773521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_183
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 269
+        width: 119
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fd873c1e7a93643a6ab5b3c263f08e
+      internalID: 181091931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_184
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 308
+        width: 34
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2838ef131fa841f42a0be92c54a8cb4e
+      internalID: 102545452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_185
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 300
+        width: 44
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790a587b223fd834494a8d92d3a6c7ae
+      internalID: -1668915632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_186
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 296
+        width: 52
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c55ca6bd5bb1843ba47a6a3cf16756
+      internalID: -1724869217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_187
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 358
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc41d0ddf851864a828b9d8a9457e22
+      internalID: -1537249311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_188
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 373
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9214ecae1ac5e409443942a51df4f7
+      internalID: -2082218069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_189
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 309
+        width: 134
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67977f7a6f0108c4b8dee8028b41488e
+      internalID: 1982630591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_190
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 279
+        width: 106
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d4c72fb03e91e418d6b1c814d766e9
+      internalID: -1701312077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_191
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 318
+        width: 145
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00558558fc09dbf459c367d755a44b99
+      internalID: 2103195851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_192
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 313
+        width: 148
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a96e575ed7adf48962c1fc78bc715a
+      internalID: 911366694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_193
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 316
+        width: 146
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72bf17424e159847bca444ba0c9f312
+      internalID: 1441950914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_194
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 314
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0685f6ea6b67c6f4fafdf25f73644515
+      internalID: 2090400650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_195
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 346
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5f31a454bd833449bb1cca2c5ef24c
+      internalID: 1339387661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_196
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 230
+        width: 135
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fc0f964ffb3594189ee4a85aa1d1e4
+      internalID: -730871832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_197
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 165
+        width: 94
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad9a55c9ffd82c4e95426d0517703dc
+      internalID: 1752039175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_198
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 141
+        width: 95
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1de98c79e841a47bef80f1e14d1331
+      internalID: 1396560714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_199
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 147
+        width: 94
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323a39a65cd8a5e4ca92c030da01262b
+      internalID: -132287725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_200
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 0
+        width: 499
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e68199a12176214ea8c556bc39fb22a
+      internalID: -303391364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_129: 444762982
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_23: 6550209
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_57: -140482041
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_170: 1704406981
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_119: 1831789865
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_10: -723315503
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_96: 215576992
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_5: 2098907438
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_79: -1460438626
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_56: -2077786427
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_71: 1277364794
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_61: 112746442
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_136: 171902989
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_97: 113111090
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_117: -905308796
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_34: 822201591
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_20: -1117734035
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_135: -406604809
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_159: -521755060
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_13: -432931208
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_65: -1651471101
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_95: -537152736
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_131: 1511669836
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_67: 147843525
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_169: -2049245180
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_62: -924760412
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_147: -1544803132
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_140: 382617585
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_183: 181091931
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_128: 900094595
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_112: -616051741
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_158: 1051926299
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_98: -1378927250
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_199: -132287725
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_132: 854953678
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_45: -652378645
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_54: -1388324093
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_17: -1761137674
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_49: 477104286
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_152: 373749010
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_173: -37581678
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_9: -939827936
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_155: -1867424577
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_161: 801022569
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_176: -1338040537
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_7: 518731363
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_133: 1356125218
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_28: 960171503
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_180: 984834578
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_11: 1750530430
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_149: 405270870
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_172: 1223878216
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_88: -1562182733
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_189: 1982630591
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_156: 320695339
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_103: 69078412
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_191: 2103195851
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_126: -1440861920
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_18: 1687937843
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_134: 1060804214
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_31: 7581126
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_137: 1234246089
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_77: 1502659034
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_188: -2082218069
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_52: 308099177
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_4: -1828657437
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_91: -1129172967
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_141: 2087622843
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_30: -2048355807
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_39: 317435945
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_53: 1393632410
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_2: 1006747671
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_80: -905733254
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_120: -1552897665
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_123: -517911283
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_107: 1604739626
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_124: -1171189323
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_182: 1161773521
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_168: -258636275
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_146: 1023443174
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_100: 999551445
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_193: 1441950914
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_81: -166094942
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_153: -1101121326
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_121: -317389839
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_55: 1733886746
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_108: -1295276095
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_15: 805190447
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_93: 1120648911
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_114: -343045423
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_139: 988524459
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_82: 1726921741
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_142: 1416789698
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_122: 52524716
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_197: 1752039175
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_138: 1913416383
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_76: 1161830389
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_105: 751310025
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_195: 1339387661
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_78: -9551157
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_186: -1724869217
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_115: -1369631083
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_125: 2057582940
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_58: -943164012
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_190: -1701312077
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_192: 911366694
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_175: -1721102334
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_101: 57019357
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_150: -1853159374
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_89: 1572643021
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_69: 1831391213
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_110: -1014424925
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_162: -1169091041
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_51: -1364803542
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_166: 230337201
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_151: 46759046
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_148: -1298197373
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_157: 1116170059
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_104: 1314067462
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_184: 102545452
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_200: -303391364
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_8: 1310265794
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_102: -1151317036
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_59: -276160833
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_164: -442214801
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_70: -258395732
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_194: 2090400650
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_36: 845740546
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_72: -2067478174
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_163: -1436194726
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_48: 1334616664
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_50: 1458196381
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_32: -828547673
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_75: 1839068372
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_85: -526723789
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_113: -447491412
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_22: 1510257238
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_109: 2021673288
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_94: -1896834163
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_177: 583812981
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_12: 1351496182
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_38: 503939241
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_40: 1403061249
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_90: 1056313386
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_6: 420210665
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_145: 1052337829
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_84: -706864879
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_111: -1219484688
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_14: -1365604867
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_86: -2028718202
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_99: -1621155705
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_106: 393975463
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_165: 125956497
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_92: -37202077
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_43: -825266868
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_46: -1954313295
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_118: 1030457356
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_42: 741579459
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_41: 312523941
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_0: 1759360754
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_130: -748673376
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_21: -1212354950
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_47: 1809098403
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_29: -669236323
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_73: 197031549
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_196: -730871832
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_63: -267646605
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_154: -1093142389
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_1: -1593237258
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_35: 1517804891
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_27: -365827325
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_127: -1580344337
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_179: -1125269932
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_3: -1561040352
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_198: 1396560714
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_167: -223946496
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_185: -1668915632
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_19: -146140935
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_66: 772556558
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_44: -2012511458
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_83: 669072158
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_178: -4061623
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_143: -5351908
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_174: -441333480
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_187: -1537249311
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_26: 1767715041
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_181: 1664146301
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_60: -1487329656
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_16: 1534014340
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_24: -1668454972
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_25: -2144197316
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_33: -2098350537
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_74: 803080849
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_64: 772055912
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_37: 2117920366
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_160: -204207658
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_116: 199192403
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_68: -356522922
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_87: 1511026993
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_144: -112827521
+      green_lantern_sprite_sheet__by_hyacinthcrown45_df2i7uz_171: 2063248200
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

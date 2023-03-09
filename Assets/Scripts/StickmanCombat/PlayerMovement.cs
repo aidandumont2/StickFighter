@@ -28,14 +28,16 @@ public class PlayerMovement : MonoBehaviour
     {
         anim.SetBool("Static",isStatic);
         anim.SetBool("Sol", isGrounded);
-        //IsGrounded();
         if (Input.GetKey(KeyCode.LeftArrow))
         {
 
             if (isCrouching == false)
             {
-                anim.SetBool("MarcheAvant", true);
+                if (isGrounded == true)
+                    anim.SetBool("MarcheAvant", false);
                 anim.SetBool("Static", false);
+                anim.SetBool("MarcheArriere", true);
+                
                 Move(-speed);
             }
 

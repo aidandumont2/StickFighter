@@ -88,12 +88,8 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -7430584030213566965}
     m_Position: {x: -450, y: -130, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -1752372595200793660}
-    m_Position: {x: -200.57184, y: -204.04349, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
-  - {fileID: -633959532084796219}
   - {fileID: 6512170728825374992}
   - {fileID: -7569034915642920891}
   - {fileID: 6810227136226952730}
@@ -144,7 +140,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: LancerBatarang
+    m_ConditionEvent: "AttaqueSp\xE9cial"
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: Static
@@ -251,40 +247,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1101 &-7343771179737991305
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: Static
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: SautAttaque
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: Sol
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: Saut
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: -2586707828834964980}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.88461536
-  m_HasExitTime: 1
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
 --- !u!1101 &-6418207100954739574
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -354,16 +316,7 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: Static
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: Sol
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: Accroupie
-    m_EventTreshold: 0
+  m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2586707828834964980}
   m_Solo: 0
@@ -411,16 +364,7 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: Static
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: Sol
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: MarcheAvant
-    m_EventTreshold: 0
+  m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2586707828834964980}
   m_Solo: 0
@@ -431,67 +375,6 @@ AnimatorStateTransition:
   m_TransitionOffset: 0
   m_ExitTime: 0.46428573
   m_HasExitTime: 1
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
---- !u!1102 &-1752372595200793660
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: SautAttaque
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: -7343771179737991305}
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 3896b26cf4dd41040aa6154148f46d12, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1101 &-633959532084796219
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: Static
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: SautAttaque
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: Saut
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: Sol
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: -1752372595200793660}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.75
-  m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -512,12 +395,6 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: AttaqueLourde
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: LancerBatarang
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -554,6 +431,12 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: Sol
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: "AttaqueSp\xE9cial"
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -667,7 +550,7 @@ AnimatorStateTransition:
     m_ConditionEvent: Sol
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: LancerBatarang
+    m_ConditionEvent: "AttaqueSp\xE9cial"
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5733012569297959527}
@@ -718,14 +601,14 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: Static
-    m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: Accroupie
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: Sol
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Static
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -9119213909481126151}

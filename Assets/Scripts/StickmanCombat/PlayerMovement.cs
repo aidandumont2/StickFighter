@@ -19,7 +19,6 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded = true;
     private bool isCrouching = false;
     private bool isStatic = false;
-    private bool IsCrouch = false;
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
@@ -40,23 +39,25 @@ public class PlayerMovement : MonoBehaviour
                 Move(-speed);
             }
 
-        } else if (Input.GetKey(KeyCode.RightArrow))
+        } if (Input.GetKey(KeyCode.RightArrow))
         {
             if (isCrouching == false)
             {
                 if (isGrounded == true)
-                    anim.SetBool("MarcheAvant", true);
-                anim.SetBool("Static", false);
+                    Debug.Log("MarcheAvant");
+                    anim.SetBool("Static", false);
+                anim.SetBool("MarcheAvant", true);                
                 Move(speed);
             }
 
-        } else if (Input.GetKeyDown(KeyCode.DownArrow))
+        }if (Input.GetKey(KeyCode.DownArrow))
         {
-           Crouch();
-            isCrouching = true;
-            anim.SetBool("Accroupie", isCrouching);        
+            if (isGrounded == true)
+                isCrouching = true;
+                Crouch();
+            Debug.Log(isStatic);
         }
-        else if (Input.GetKeyUp(KeyCode.Space)) {
+        else if (Input.GetKeyUp(KeyCode.E)) {
             if (isGrounded == false)
             {
                 
@@ -66,11 +67,6 @@ public class PlayerMovement : MonoBehaviour
                 anim.Play("AttaqueLégère"); 
             }
         }
-        if (Input.GetKeyUp(KeyCode.DownArrow))
-        {
-            spriterenderer.sprite = spriteStand;
-            isCrouching = false;
-        } 
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             if (isCrouching == false)
@@ -89,16 +85,17 @@ public class PlayerMovement : MonoBehaviour
 
             }
 
-        } else if (Input.GetKeyDown(KeyCode.A)) {
+        } if (Input.GetKeyDown(KeyCode.A)) {
             anim.Play("AttaqueLourde");
         }
-        else
+        if(Input.anyKeyDown == false) 
         {
             isStatic = true;
             isCrouching = false;
-            anim.SetBool("MarcheAvant", false);
+            anim.SetBool("Accroupie", false);
+           // anim.SetBool("MarcheAvant", false);
 
-            
+
         }
         
     }
@@ -113,11 +110,12 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void Crouch()
-    {
+    {            
         spriterenderer.sprite = spriteCrouch;
-        anim.SetBool("Accroupie", true);
-        isCrouching = true;
         isStatic = false;
+        anim.SetBool("Accroupie", isCrouching);
+        anim.SetBool("Static", isStatic);
+        
     }
 
     private void Jump()

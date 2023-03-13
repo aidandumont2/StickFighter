@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Camps1 : MonoBehaviour
+public class Camps2 : MonoBehaviour
 {
  public Material defaultmaterial;
     public Color couleurJoueur;
@@ -20,7 +20,7 @@ public class Camps1 : MonoBehaviour
             Material material = materials[0];
             Color color = material.color;
             defaultmaterial = material;
-            material.color = Color.red;
+            material.color = Color.blue;
         }
     }
     private void OnTriggerExit(Collider other)

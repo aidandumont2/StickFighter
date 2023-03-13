@@ -8,6 +8,7 @@ public class PlayerManager : MonoBehaviour
     public bool isCrouching = false;
     public bool isMoving = false;
     public bool isSpecialAtt = false;
+    public bool isStatic = true;
 
     public float speed = 5f;
     public float jumpspeed = 2f;

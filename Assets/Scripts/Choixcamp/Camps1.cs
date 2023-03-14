@@ -6,6 +6,7 @@ public class Camps1 : MonoBehaviour
 {
  public Material defaultmaterial;
     public Color couleurJoueur;
+    public string Joueur = "";
     
     private void OnTriggerEnter(Collider other)
     {

@@ -312,6 +312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Joueur 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6904120341130890900, guid: 417543492185b9e498f99adf9527cb84, type: 3}
+      propertyPath: m_TagString
+      value: Joueur2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 417543492185b9e498f99adf9527cb84, type: 3}
 --- !u!1 &392899829 stripped
@@ -548,6 +552,7 @@ GameObject:
   - component: {fileID: 656855077}
   - component: {fileID: 656855076}
   - component: {fileID: 656855080}
+  - component: {fileID: 656855081}
   m_Layer: 5
   m_Name: Camp 2
   m_TagString: Untagged
@@ -627,6 +632,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 200, y: 100, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &656855081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656855074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d994c1be7231db46bcd6acd6c97d960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultmaterial: {fileID: 0}
+  couleurJoueur: {r: 0, g: 0.31276035, b: 1, a: 0}
+  Joueur: 
 --- !u!1 &974128031
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,6 +996,10 @@ PrefabInstance:
     - target: {fileID: 6904120341130890900, guid: 417543492185b9e498f99adf9527cb84, type: 3}
       propertyPath: m_Name
       value: Joueur 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904120341130890900, guid: 417543492185b9e498f99adf9527cb84, type: 3}
+      propertyPath: m_TagString
+      value: Joueur1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 417543492185b9e498f99adf9527cb84, type: 3}
@@ -1346,6 +1370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultmaterial: {fileID: 2100000, guid: a8e9bbaba90b1914ba1983cfcb48c7cf, type: 2}
   couleurJoueur: {r: 1, g: 0, b: 0, a: 0}
+  Joueur: Joueur1
 --- !u!65 &2129831985
 BoxCollider:
   m_ObjectHideFlags: 0

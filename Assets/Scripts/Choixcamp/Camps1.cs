@@ -13,7 +13,6 @@ public class Camps1 : MonoBehaviour
 
         if (other.gameObject.CompareTag("Joueur1") || other.gameObject.CompareTag("Joueur2"))
         {
-            Debug.Log("entrer");
             GameObject box = other.gameObject;
             SpriteRenderer[] Joueur = box.GetComponentsInChildren<SpriteRenderer>(true);
             for (int i = 0; i < Joueur.Length; i++)
@@ -31,7 +30,6 @@ public class Camps1 : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Joueur1") || other.gameObject.CompareTag("Joueur2"))
         {
-            Debug.Log("sortie");
             GameObject box = other.gameObject;
             SpriteRenderer[] Joueur = box.GetComponentsInChildren<SpriteRenderer>(true);
             for (int i = 0; i < Joueur.Length; i++)

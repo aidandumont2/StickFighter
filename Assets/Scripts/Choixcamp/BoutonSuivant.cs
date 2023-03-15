@@ -12,6 +12,9 @@ public class BoutonSuivant : MonoBehaviour
     {
         if ((joueur1.transform.position.x == 6 && joueur2.transform.position.x == - 6) || (joueur1.transform.position.x == -6 && joueur2.transform.position.x == 6))
         {
+            if(joueur1.transform.position.x == 6)
+            {
+            }
             Debug.Log("lol");
             SceneManager.LoadScene(sceneSuivante);
         }

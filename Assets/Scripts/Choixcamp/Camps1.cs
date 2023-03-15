@@ -7,35 +7,41 @@ public class Camps1 : MonoBehaviour
  public Material defaultmaterial;
     public Color couleurJoueur;
     public string Joueur = "";
-    
+
     private void OnTriggerEnter(Collider other)
     {
-       
+
         if (other.gameObject.CompareTag("Joueur1") || other.gameObject.CompareTag("Joueur2"))
         {
-            Debug.Log("La caisse est dans la place");
+            Debug.Log("entrer");
             GameObject box = other.gameObject;
-            SpriteRenderer Joueur = box.GetComponentInChildren<SpriteRenderer>(true);
-            SpriteRenderer renderer = Joueur.GetComponent<SpriteRenderer>();
-            Material[] materials = renderer.materials;
-            Material material = materials[0];
-            Color color = material.color;
-            defaultmaterial = material;
-            material.color = Color.red;
+            SpriteRenderer[] Joueur = box.GetComponentsInChildren<SpriteRenderer>(true);
+            for (int i = 0; i < Joueur.Length; i++)
+            {
+                Material[] materials = Joueur[i].materials;
+                Material material = materials[0];
+                Color color = material.color;
+                defaultmaterial = material;
+                material.color = Color.red;
+            }
+
         }
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("Joueur1") || other.gameObject.CompareTag("Joueur2"))
         {
-            Debug.Log("La caisse n'est plus dans la place");
+            Debug.Log("sortie");
             GameObject box = other.gameObject;
-            SpriteRenderer Joueur = box.GetComponentInChildren<SpriteRenderer>();
-            SpriteRenderer renderer = Joueur.GetComponent<SpriteRenderer>();
-            Material[] materials = renderer.materials;
-            Material material = materials[0];
-            Color color = material.color;
-            material.color = Color.white;
+            SpriteRenderer[] Joueur = box.GetComponentsInChildren<SpriteRenderer>(true);
+            for (int i = 0; i < Joueur.Length; i++)
+            {
+                Material[] materials = Joueur[i].materials;
+                Material material = materials[0];
+                Color color = material.color;
+                defaultmaterial = material;
+                material.color = Color.white;
+            }
         }
     }
 }

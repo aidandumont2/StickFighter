@@ -11,27 +11,34 @@ public class Camps2 : MonoBehaviour
        
         if (other.gameObject.CompareTag("Joueur1") || other.gameObject.CompareTag("Joueur2"))
         {
+            Debug.Log("entrer");
             GameObject box = other.gameObject;
-            SpriteRenderer Joueur = box.GetComponentInChildren<SpriteRenderer>(true);
-            SpriteRenderer renderer = Joueur.GetComponent<SpriteRenderer>();
-            Material[] materials = renderer.materials;
+            SpriteRenderer[] Joueur = box.GetComponentsInChildren<SpriteRenderer>(true);
+            for(int i= 0;i<Joueur.Length;i++) {
+                Material[] materials = Joueur[i].materials;
             Material material = materials[0];
             Color color = material.color;
             defaultmaterial = material;
             material.color = Color.blue;
+            }
+            
         }
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("Joueur1") || other.gameObject.CompareTag("Joueur2"))
         {
+            Debug.Log("sortie");
             GameObject box = other.gameObject;
-            SpriteRenderer Joueur = box.GetComponentInChildren<SpriteRenderer>();
-            SpriteRenderer renderer = Joueur.GetComponent<SpriteRenderer>();
-            Material[] materials = renderer.materials;
-            Material material = materials[0];
-            Color color = material.color;
-            material.color = Color.white;
+            SpriteRenderer[] Joueur = box.GetComponentsInChildren<SpriteRenderer>(true);
+            for (int i = 0; i < Joueur.Length; i++)
+            {
+                Material[] materials = Joueur[i].materials;
+                Material material = materials[0];
+                Color color = material.color;
+                defaultmaterial = material;
+                material.color = Color.white;
+            }
         }
     }
 }

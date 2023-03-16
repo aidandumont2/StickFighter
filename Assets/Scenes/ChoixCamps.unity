@@ -320,7 +320,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Joueur2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 417543492185b9e498f99adf9527cb84, type: 3}
 --- !u!1 &392899829 stripped
 GameObject:
@@ -1361,7 +1362,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6904120341130890899, guid: 417543492185b9e498f99adf9527cb84, type: 3}
   m_PrefabInstance: {fileID: 1233527449}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1233527454
+--- !u!65 &1233527455
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233527450}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1233527456
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1377,19 +1391,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &1233527455
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1233527450}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1334917010
 GameObject:
   m_ObjectHideFlags: 0
@@ -1878,7 +1879,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d61ae4f257956354b9d9ffa03ddddf77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneSuivante: Commandes
+  positionjoueuer1: 0
+  positionjoueuer2: 0
+  sceneSuivante: ChoixNom
   joueur1: {fileID: 1233527450}
   joueur2: {fileID: 392899829}
 --- !u!1 &2129831979

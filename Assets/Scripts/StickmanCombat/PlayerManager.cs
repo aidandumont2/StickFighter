@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-    public string Camps = "";
     public bool isGrounded = true;
     public bool isCrouching = false;
     public bool isMoving = false;

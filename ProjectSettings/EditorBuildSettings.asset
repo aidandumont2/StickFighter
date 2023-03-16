@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ChoixCamps.unity
     guid: f8550137459b5c649b10bba7b51cf7f2
+  - enabled: 1
+    path: Assets/Scenes/ChoixNom.unity
+    guid: 7272e6bdfff04cb40bf604b6ce253f3d
   m_configObjects: {}

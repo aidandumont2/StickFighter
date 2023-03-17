@@ -12,8 +12,9 @@ public class SpecialAttack : MonoBehaviour
         transform.position += speed * Time.deltaTime * new Vector3(20f,0,0);
     }
 
-    private void OnCollisionEnter2D()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
+        collision.gameObject.GetComponentInChildren<PlayerManager>().lifepoint -= 20;
         Destroy(gameObject);
     }
 }

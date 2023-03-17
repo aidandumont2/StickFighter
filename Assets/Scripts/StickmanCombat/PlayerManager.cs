@@ -15,4 +15,6 @@ public class PlayerManager : MonoBehaviour
 
     public int lifepoint = 100;
     public int stamina = 7;
+
+
 }

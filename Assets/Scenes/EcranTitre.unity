@@ -516,6 +516,7 @@ GameObject:
   - component: {fileID: 693528620}
   - component: {fileID: 693528619}
   - component: {fileID: 693528618}
+  - component: {fileID: 693528623}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -615,6 +616,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c2cc09fb573dba42861b18cfe23fb29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &693528623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693528617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80a26d332f05d14c9de45b97fc01be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1176706892
@@ -1202,16 +1215,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 693528622}
-        m_TargetAssemblyTypeName: ChangementScene, Assembly-CSharp
-        m_MethodName: "Sc\xE8neAideCommande"
-        m_Mode: 1
+      - m_Target: {fileID: 693528623}
+        m_TargetAssemblyTypeName: "ChangerSc\xE8ne, Assembly-CSharp"
+        m_MethodName: LoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: CommandesJoystick
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1450386129
@@ -1461,7 +1474,7 @@ GameObject:
   - component: {fileID: 2010159256}
   - component: {fileID: 2010159257}
   m_Layer: 5
-  m_Name: Joueur
+  m_Name: Jouer
   m_TagString: BoutonMenu
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1532,16 +1545,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 693528622}
-        m_TargetAssemblyTypeName: "Sc\xE8neChoixCamps, Assembly-CSharp"
-        m_MethodName: "Sc\xE8nechoixcamps"
-        m_Mode: 1
+      - m_Target: {fileID: 693528623}
+        m_TargetAssemblyTypeName: "ChangerSc\xE8ne, Assembly-CSharp"
+        m_MethodName: LoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: ChoixCamps
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2010159254

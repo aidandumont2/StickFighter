@@ -9,9 +9,19 @@ EditorBuildSettings:
     path: Assets/Scenes/EcranTitre.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Commandes.unity
+    path: Assets/Scenes/CommandesJoystick.unity
     guid: ee034ec7ce2ef524192fbd412f6bd9fd
+  - enabled: 1
+    path: Assets/Scenes/CommandesClavier.unity
+    guid: 377b7fe46b2f8024b8c9fc087551188b
   - enabled: 1
     path: Assets/Scenes/ChoixCamps.unity
     guid: f8550137459b5c649b10bba7b51cf7f2
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/ChoixPersonnages.unity
+    guid: a56d983979aeb4543bade57d3b0d23c3
+  - enabled: 1
+    path: Assets/Scenes/Chargement.unity
+    guid: 1f50f1a3d95c31a44b0be0ed602a9117
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 6dd65fdf21147fe4c8ebaebe26eb235d, type: 2}

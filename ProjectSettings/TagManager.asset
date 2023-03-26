@@ -7,6 +7,7 @@ TagManager:
   - Joueur1
   - Joueur2
   - BoutonMenu
+  - EventSystem
   layers:
   - Default
   - TransparentFX

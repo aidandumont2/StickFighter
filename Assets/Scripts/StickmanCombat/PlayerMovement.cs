@@ -21,7 +21,9 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        
         anim = gameObject.GetComponent<Animator>();
+        
     }
     void Update()
     {
@@ -61,15 +63,25 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (Input.GetKeyUp(KeyCode.E) && player.isGrounded == true)
         {
-            anim.Play("AttaqueLégère");
-            refHitBoxAttack.ActiveHitBox("Legere");
-            new WaitForSeconds((float)0.42);
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("AttaqueLégère"))
+            {//anim.GetComponent<Animation>().IsPlaying("AttaqueLégère")
+                anim.Play("AttaqueLégère");
+                refHitBoxAttack.ActiveHitBox("Legere");
+            }
+            
+            //new WaitForSeconds((float)0.42);
+
         }
         else if (Input.GetKeyUp(KeyCode.A) && player.isGrounded == true)
         {
-            anim.Play("AttaqueLourde");
-            refHitBoxAttack.ActiveHitBox("Lourde");
-            new WaitForSeconds((float)1.03);
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("AttaqueLourde"))
+            {
+                anim.Play("AttaqueLourde");
+                refHitBoxAttack.ActiveHitBox("Lourde");
+            }
+            
+            //new WaitForSeconds((float)1.03);
+            
         }
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
@@ -113,10 +125,14 @@ public class PlayerMovement : MonoBehaviour
     {
         if (player.isGrounded == true)
         {
-            anim.Play("Saut");
-            player.speed = player.jumpspeed;
-            rb.AddForce(Vector2.up * 6.5f, (ForceMode2D)ForceMode2D.Impulse);
-            player.isGrounded = false;
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Saut"))
+            {
+                anim.Play("Saut");
+                player.speed = player.jumpspeed;
+                rb.AddForce(Vector2.up * 6.5f, (ForceMode2D)ForceMode2D.Impulse);
+                player.isGrounded = false;
+            }
+                
         }
 
     }

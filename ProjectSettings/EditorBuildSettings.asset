@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ChoixCamps.unity
     guid: f8550137459b5c649b10bba7b51cf7f2
+  - enabled: 1
+    path: Assets/Scenes/SceneCombat.unity
+    guid: 847c6e93be462e342a837d651cf11682
+  - enabled: 1
+    path: Assets/Scenes/SceneFinCombat.unity
+    guid: 9430f5d900abdaa44881bb739ce54a56
   m_configObjects: {}

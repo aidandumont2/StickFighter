@@ -5,14 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject Player1;
-    public GameObject Player2;
-    private Scene sceneCombat;
-
-    void Start()
+    //public static bool isEndFight = false;
+    public static int viePlayer1;
+    public static int viePlayer2;
+    void Update()
     {
-        sceneCombat = SceneManager.GetActiveScene();
-        Debug.Log(sceneCombat);
-        Debug.Log(sceneCombat.GetRootGameObjects());
+        
+    }
+
+    public static void FinCombat()
+    {
+        Debug.Log("Fin du combat");
+        SceneManager.LoadScene("SceneFinCombat");
     }
 }

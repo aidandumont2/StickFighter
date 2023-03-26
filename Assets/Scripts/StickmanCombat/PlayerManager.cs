@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerManager : MonoBehaviour
 {
+    public string numPlayer;
+    public TextMeshProUGUI refTMP;
     public bool isGrounded = true;
     public bool isCrouching = false;
     public bool isMoving = false;
@@ -16,5 +19,26 @@ public class PlayerManager : MonoBehaviour
     public int lifepoint = 100;
     public int stamina = 7;
 
+    
+    void Update()
+    {
 
+        if (lifepoint <= 0)
+        {
+            GameManager.FinCombat();
+        }
+        
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "Camp1")
+        {
+            numPlayer = "Player1";
+        }else if(collision.gameObject.name == "Camp2")
+        {
+            numPlayer = "Player2";
+        }
+        collision.gameObject.SetActive(false);
+        refTMP.text = numPlayer;
+    }
 }

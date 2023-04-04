@@ -28,12 +28,21 @@ public class HitBoxPlayerAttack : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        refPlayerManager = collision.gameObject.GetComponentInChildren<PlayerManager>();
-        isEnnemyUnderAttack = true;
+       
+        if (collision.gameObject.tag != "Camp") { 
+            Debug.Log(collision.gameObject.GetComponentInParent<PlayerManager>());
+            refPlayerManager = collision.gameObject.GetComponentInParent<PlayerManager>();
+            isEnnemyUnderAttack = true;
+        }
+       
+        //Debug.Log(refPlayerManager);
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        //if (collision.gameObject == ) { }
-        isEnnemyUnderAttack = false;
+        if (collision.gameObject.tag != "Camp") { 
+            isEnnemyUnderAttack = false;
+        }
+        
+        //Debug.Log(refPlayerManager);
     }
 }

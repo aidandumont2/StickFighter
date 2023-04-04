@@ -19,6 +19,13 @@ public class PlayerMovement : MonoBehaviour
     public Sprite spriteCrouch;
     public Sprite spriteStand;
 
+    private KeyCode saut;
+    private KeyCode avancer;
+    private KeyCode reculer;
+    private KeyCode attSpe;
+    private KeyCode attLeg;
+    private KeyCode attLour;
+
     void Start()
     {
         
@@ -29,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
     {
         anim.SetBool("Static", player.isStatic);
         anim.SetBool("Sol", player.isGrounded);
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(reculer))
         {
             if (player.isCrouching == false)
             {
@@ -40,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
             }
 
         }
-        else if (Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKey(avancer))
         {
             if (player.isCrouching == false)
             {
@@ -52,16 +59,16 @@ public class PlayerMovement : MonoBehaviour
             }
 
         }
-        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        else if (Input.GetKeyDown(KeyCode.AltGr))
         {
             Crouch();
         }
-        else if (Input.GetKeyUp(KeyCode.DownArrow))
+        else if (Input.GetKeyUp(KeyCode.AltGr))
         {
             spriterenderer.sprite = spriteStand;
             player.isCrouching = false;
         }
-        else if (Input.GetKeyUp(KeyCode.E) && player.isGrounded == true)
+        else if (Input.GetKeyUp(attLeg) && player.isGrounded == true)
         {
             if (!anim.GetCurrentAnimatorStateInfo(0).IsName("AttaqueLégère"))
             {//anim.GetComponent<Animation>().IsPlaying("AttaqueLégère")
@@ -72,7 +79,7 @@ public class PlayerMovement : MonoBehaviour
             //new WaitForSeconds((float)0.42);
 
         }
-        else if (Input.GetKeyUp(KeyCode.A) && player.isGrounded == true)
+        else if (Input.GetKeyUp(attLour) && player.isGrounded == true)
         {
             if (!anim.GetCurrentAnimatorStateInfo(0).IsName("AttaqueLourde"))
             {
@@ -83,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
             //new WaitForSeconds((float)1.03);
             
         }
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(saut))
         {
             if (player.isCrouching == false)
             {
@@ -91,7 +98,7 @@ public class PlayerMovement : MonoBehaviour
             }
 
         }
-        if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
+        if (Input.GetKeyUp(avancer) || Input.GetKeyUp(reculer))
         {
             player.isStatic = true;
             player.isCrouching = false;
@@ -162,4 +169,23 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    private void ChoixInputCamp1()
+    {
+        saut = KeyCode.Z;
+        avancer = KeyCode.D;
+        reculer = KeyCode.Q;
+        attLeg = KeyCode.E;
+        attLour = KeyCode.A;
+        attSpe = KeyCode.S;
+    }
+
+    private void ChoixInputCamp2()
+    {
+        saut = KeyCode.UpArrow;
+        avancer = KeyCode.LeftArrow;
+        reculer = KeyCode.RightArrow;
+        attLeg = KeyCode.Keypad1;
+        attLour = KeyCode.Keypad3;
+        attSpe = KeyCode.Keypad0;
+    }
 }

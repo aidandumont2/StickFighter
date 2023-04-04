@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerAttacks : MonoBehaviour
 {
     public GameObject attackSpecial;
+    PlayerLifeBar lifebar = new PlayerLifeBar();
     Animator anim;
     private void Start()
     {
+        lifebar.max = 100;
+        lifebar.currentlife = 100;
         anim = GetComponent<Animator>(); 
     }
 

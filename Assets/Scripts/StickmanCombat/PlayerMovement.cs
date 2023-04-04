@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
     {
         
         anim = gameObject.GetComponent<Animator>();
-        
+        //Définir ou est le joueur : Camp1 ou Camp2
     }
     void Update()
     {
@@ -160,16 +160,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("ground test");
+        Debug.Log(collision.gameObject.name);
+        //Debug.Log("ground test");
         if (collision.gameObject.name == "Sol")
         {
             player.isGrounded = true;
             player.speed = 5f;
         }
-
     }
 
-    private void ChoixInputCamp1()
+    public void ChoixInputCamp1()
     {
         saut = KeyCode.Z;
         avancer = KeyCode.D;
@@ -179,11 +179,11 @@ public class PlayerMovement : MonoBehaviour
         attSpe = KeyCode.S;
     }
 
-    private void ChoixInputCamp2()
+    public void ChoixInputCamp2()
     {
         saut = KeyCode.UpArrow;
-        avancer = KeyCode.LeftArrow;
-        reculer = KeyCode.RightArrow;
+        avancer = KeyCode.RightArrow;
+        reculer = KeyCode.LeftArrow;
         attLeg = KeyCode.Keypad1;
         attLour = KeyCode.Keypad3;
         attSpe = KeyCode.Keypad0;

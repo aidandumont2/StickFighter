@@ -34,9 +34,11 @@ public class PlayerManager : MonoBehaviour
         if (collision.gameObject.name == "Camp1")
         {
             numPlayer = "Player1";
+            gameObject.GetComponent<PlayerMovement>().ChoixInputCamp1();
         }else if(collision.gameObject.name == "Camp2")
         {
             numPlayer = "Player2";
+            gameObject.GetComponent<PlayerMovement>().ChoixInputCamp2();
         }
         collision.gameObject.SetActive(false);
         refTMP.text = numPlayer;

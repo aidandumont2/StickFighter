@@ -12,26 +12,117 @@ using Image = UnityEngine.UI.Image;
 
 public class ChoixPersonnages : MonoBehaviour
 {
-    public GameObject Joueur1;
-    public GameObject Joueur2;
+    public  GameObject Joueur1;
+    public  GameObject Joueur2;
     public Sprite Batman;
     public Sprite Dio;
     public Sprite Doomsday;
     public Sprite CaptainFalcon;
     public Sprite Flash;
     public Sprite ReverseFlash;
-    public GameObject Player1;
-    public GameObject Player2;
+    public static bool choix=false;
 
     public void choixPersonnage(string personnage)
     {
+        if (choix==false) { 
         GameManager.personnages = personnage;
-
+            Assignation1(personnage);
+        }
+        else
+        {
+            GameManager.personnages = personnage;
+            Assignation2(personnage);
+        }
+    }
+    public void Assignation1(string other)
+    {
+            if (other == "Batman")
+            {
+                Joueur1.gameObject.GetComponent<Image>().sprite = Batman;
+            Joueur1.gameObject.GetComponent<Image>().color = Color.white;
+            GameManager.PersonnageJ1 = "Batman";
+            choix = true;
+            }
+            if (other == "Dio")
+            {
+                Joueur1.gameObject.GetComponent<Image>().sprite = Dio;
+            Joueur1.gameObject.GetComponent<Image>().color = Color.white;
+            GameManager.PersonnageJ1 = "Dio";
+            choix = true;
+            }
+            if (other == "Doomsday")
+            {
+                Joueur1.gameObject.GetComponent<Image>().sprite = Doomsday;
+            Joueur1.gameObject.GetComponent<Image>().color = Color.white;
+            GameManager.PersonnageJ1 = "Doomsday";
+            choix = true;
+            }
+            if (other == "CaptainFalcon")
+            {
+                Joueur1.gameObject.GetComponent<Image>().sprite = CaptainFalcon;
+            Joueur1.gameObject.GetComponent<Image>().color = Color.white;
+            GameManager.PersonnageJ1 = "CaptainFalcon";
+            choix = true;
+            }
+            if (other == "Flash")
+            {
+                Joueur1.gameObject.GetComponent<Image>().sprite = Flash;
+            Joueur1.gameObject.GetComponent<Image>().color = Color.white;
+            GameManager.PersonnageJ1 = "Flash";
+            choix = true;
+            }
+            if (other == "ReverseFlash")
+            {
+                Joueur1.gameObject.GetComponent<Image>().sprite = ReverseFlash;
+            Joueur1.gameObject.GetComponent<Image>().color = Color.white;
+            GameManager.PersonnageJ1 = "ReverseFlash";
+            choix = true;
+            }
+            Debug.Log(choix);
+        }
+    public void Assignation2(string other)
+    {
+            if (other == "Batman")
+            {
+                Joueur2.gameObject.GetComponent<Image>().sprite = Batman;
+            Joueur2.gameObject.GetComponent<Image>().color = Color.white;
+            GameManager.PersonnageJ2 = "Batman";
+        }
+            if (other == "Dio")
+            {
+                Joueur2.gameObject.GetComponent<Image>().sprite = Dio;
+            Joueur2.gameObject.GetComponent<Image>().color = Color.white;
+            GameManager.PersonnageJ2 = "Dio";
+        }
+            if (other == "Doomsday")
+            {
+                Joueur2.gameObject.GetComponent<Image>().sprite = Doomsday;
+            Joueur2.gameObject.GetComponent<Image>().color = Color.white;
+            GameManager.PersonnageJ2 = "Doomsday";
+        }
+            if (other == "CaptainFalcon")
+            {
+                Joueur2.gameObject.GetComponent<Image>().sprite = CaptainFalcon;
+            Joueur2.gameObject.GetComponent<Image>().color = Color.white;
+            GameManager.PersonnageJ2 = "CaptainFalcon";
+        }
+            if (other == "Flash")
+            {
+                Joueur2.gameObject.GetComponent<Image>().sprite = Flash;
+            Joueur2.gameObject.GetComponent<Image>().color = Color.white;
+            GameManager.PersonnageJ2 = "Flash";
+        }
+            if (other == "ReverseFlash")
+            {
+                Joueur2.gameObject.GetComponent<Image>().sprite = ReverseFlash;
+            Joueur2.gameObject.GetComponent<Image>().color = Color.white;
+            GameManager.PersonnageJ2 = "ReverseFlash";
+        }
     }
     public void SceneChargement(string sceneSuivante)
     {
 
-        if (Joueur1.gameObject.GetComponent<Image>().sprite == true && Joueur1.gameObject.GetComponent<Image>().sprite == true)
+        if (Joueur1.gameObject.GetComponent<Image>().sprite != null && Joueur1.gameObject.GetComponent<Image>().sprite != null)
         {
             SceneManager.LoadScene(sceneSuivante);
         }

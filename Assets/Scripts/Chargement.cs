@@ -22,7 +22,7 @@ public class Chargement : MonoBehaviour
         if (GameManager.PersonnageJ1 == "Batman")
         {
             GameObject instantiated = Instantiate(Batman);
-            instantiated.transform.position= zonespawnJ1;
+            instantiated.transform.position= new Vector3();
             Gizmos.DrawWireCube(transform.position, zonespawnJ1);
         }
     }

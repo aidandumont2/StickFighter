@@ -1,105 +1,112 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private float speed = 5f;
-    private float jumpspeed = 2f;
-    
+    Animator anim;
+    /*private float speed = 5f;
+    private float jumpspeed = 2f;*/
+    public HitBoxPlayerAttack refHitBoxAttack;
+
+    public PlayerManager player;
+
+    public BoxCollider2D hitBoxAttack;
 
     public Rigidbody2D rb;
-    Animator anim;
 
     public SpriteRenderer spriterenderer;
     public Sprite spriteCrouch;
     public Sprite spriteStand;
 
-    private bool isGrounded = true;
-    private bool isCrouching = false;
-    private bool isStatic = false;
+    private KeyCode saut;
+    private KeyCode avancer;
+    private KeyCode reculer;
+    private KeyCode attSpe;
+    private KeyCode attLeg;
+    private KeyCode attLour;
+
     void Start()
     {
+        
         anim = gameObject.GetComponent<Animator>();
+        //Définir ou est le joueur : Camp1 ou Camp2
     }
-    // Update is called once per frame
     void Update()
     {
-        anim.SetBool("Static",isStatic);
-        anim.SetBool("Sol", isGrounded);
-        if (Input.GetKey(KeyCode.LeftArrow))
+        anim.SetBool("Static", player.isStatic);
+        anim.SetBool("Sol", player.isGrounded);
+        if (Input.GetKey(reculer))
         {
-
-            if (isCrouching == false)
+            if (player.isCrouching == false)
             {
-                if (isGrounded == true)
-                    anim.SetBool("MarcheAvant", false);
+                player.isMoving = true;
                 anim.SetBool("Static", false);
                 anim.SetBool("MarcheArriere", true);
-                
-                Move(-speed);
+                Move(-player.speed);
             }
 
-        } if (Input.GetKey(KeyCode.RightArrow))
-        {
-            if (isCrouching == false)
-            {
-                if (isGrounded == true)
-                    Debug.Log("MarcheAvant");
-                    anim.SetBool("Static", false);
-                anim.SetBool("MarcheAvant", true);                
-                Move(speed);
-            }
-
-        }if (Input.GetKey(KeyCode.DownArrow))
-        {
-            if (isGrounded == true)
-                isCrouching = true;
-                Crouch();
-            Debug.Log(isStatic);
         }
-        else if (Input.GetKeyUp(KeyCode.E)) {
-            if (isGrounded == false)
-            {
-                
-                //Debug.Log(isAttack);
-            }
-            else {
-                anim.Play("AttaqueLégère"); 
-            }
-        }
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        else if (Input.GetKey(avancer))
         {
-            if (isCrouching == false)
+            if (player.isCrouching == false)
             {
+                player.isMoving = true;
                 
-                //anim.SetBool("Saut", true);
                 anim.SetBool("Static", false);
-                isCrouching = false;
-                Jump();
-                isGrounded = false;
-                //if (Input.GetKeyUp(KeyCode.Space))
-                //{
-                    //anim.SetBool("AttaqueLégère", true);
-                    //anim.Play("SautAttaque");
-                //}
-
+                anim.SetBool("MarcheAvant", true);
+                Move(player.speed);
             }
 
-        } if (Input.GetKeyDown(KeyCode.A)) {
-            anim.Play("AttaqueLourde");
         }
-        if(Input.anyKeyDown == false) 
+        else if (Input.GetKeyDown(KeyCode.AltGr))
         {
-            isStatic = true;
-            isCrouching = false;
-            anim.SetBool("Accroupie", false);
-           // anim.SetBool("MarcheAvant", false);
-
+            Crouch();
+        }
+        else if (Input.GetKeyUp(KeyCode.AltGr))
+        {
+            spriterenderer.sprite = spriteStand;
+            player.isCrouching = false;
+        }
+        else if (Input.GetKeyUp(attLeg) && player.isGrounded == true)
+        {
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("AttaqueLégère"))
+            {//anim.GetComponent<Animation>().IsPlaying("AttaqueLégère")
+                anim.Play("AttaqueLégère");
+                refHitBoxAttack.ActiveHitBox("Legere");
+            }
+            
+            //new WaitForSeconds((float)0.42);
 
         }
-        
+        else if (Input.GetKeyUp(attLour) && player.isGrounded == true)
+        {
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("AttaqueLourde"))
+            {
+                anim.Play("AttaqueLourde");
+                refHitBoxAttack.ActiveHitBox("Lourde");
+            }
+            
+            //new WaitForSeconds((float)1.03);
+            
+        }
+        if (Input.GetKeyDown(saut))
+        {
+            if (player.isCrouching == false)
+            {
+                Jump();
+            }
+
+        }
+        if (Input.GetKeyUp(avancer) || Input.GetKeyUp(reculer))
+        {
+            player.isStatic = true;
+            player.isCrouching = false;
+            player.isMoving = false;
+            anim.SetBool("MarcheArriere", false);
+            anim.SetBool("MarcheAvant", false);
+
+        }
     }
 
 
@@ -107,35 +114,34 @@ public class PlayerMovement : MonoBehaviour
     {
         transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
         //transform forward => new vector(0,0,1)
-        isStatic = false;
 
     }
 
     private void Crouch()
-    {            
-        spriterenderer.sprite = spriteCrouch;
-        isStatic = false;
-        anim.SetBool("Accroupie", isCrouching);
-        anim.SetBool("Static", isStatic);
-        
+    {
+        if (player.isGrounded == true)
+        {
+            spriterenderer.sprite = spriteCrouch;
+            player.isCrouching = true;
+
+        }
+
     }
 
     private void Jump()
     {
-            if (isGrounded == true)
+        if (player.isGrounded == true)
         {
-            speed = jumpspeed;
-            rb.AddForce(Vector2.up * 6.5f, (ForceMode2D)ForceMode2D.Impulse);
-            anim.Play("Saut");
-            if (Input.GetKeyUp(KeyCode.Space) && Input.GetKeyUp(KeyCode.LeftArrow))
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Saut"))
             {
-                anim.Play("SautAttaque");
+                anim.Play("Saut");
+                player.speed = player.jumpspeed;
+                rb.AddForce(Vector2.up * 6.5f, (ForceMode2D)ForceMode2D.Impulse);
+                player.isGrounded = false;
             }
-                isGrounded = false;
-            isStatic= false;
-
+                
         }
-            
+
     }
 
     /*private void IsGrounded() {
@@ -154,12 +160,32 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("ground test");
+        Debug.Log(collision.gameObject.name);
+        //Debug.Log("ground test");
         if (collision.gameObject.name == "Sol")
         {
-            isGrounded = true;
-            speed = 5f;
+            player.isGrounded = true;
+            player.speed = 5f;
         }
-        
+    }
+
+    public void ChoixInputCamp1()
+    {
+        saut = KeyCode.Z;
+        avancer = KeyCode.D;
+        reculer = KeyCode.Q;
+        attLeg = KeyCode.E;
+        attLour = KeyCode.A;
+        attSpe = KeyCode.S;
+    }
+
+    public void ChoixInputCamp2()
+    {
+        saut = KeyCode.UpArrow;
+        avancer = KeyCode.RightArrow;
+        reculer = KeyCode.LeftArrow;
+        attLeg = KeyCode.Keypad1;
+        attLour = KeyCode.Keypad3;
+        attSpe = KeyCode.Keypad0;
     }
 }

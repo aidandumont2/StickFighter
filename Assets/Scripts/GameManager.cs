@@ -32,5 +32,14 @@ public class GameManager : MonoBehaviour
             Debug.Log("Les 2 on un perso");
             bouton.GetComponent<Image>().color = Color.red;
         }
+    void Update()
+    {
+        
+    }
+
+    public static void FinCombat()
+    {
+        Debug.Log("Fin du combat");
+        SceneManager.LoadScene("SceneFinCombat");
     }
 }

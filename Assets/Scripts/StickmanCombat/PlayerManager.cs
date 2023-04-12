@@ -22,7 +22,6 @@ public class PlayerManager : MonoBehaviour
     
     void Update()
     {
-
         if (lifepoint <= 0)
         {
             GameManager.FinCombat();

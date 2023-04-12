@@ -7,7 +7,6 @@ using Image = UnityEngine.UI.Image;
 
 public class GameManager : MonoBehaviour
 {
-    public Sprite uISprite;
     public static string personnages;
     public GameObject ChoixPersonnage1;
     public GameObject ChoixPersonnage2;
@@ -16,30 +15,27 @@ public class GameManager : MonoBehaviour
     public Button bouton;
     public static string PersonnageJ1;
     public static string PersonnageJ2;
-    private Color colors = new Color (1f, 0.9764706f, 0.9764706f, 1f);
+    private Color colors = new Color(1f, 0.9764706f, 0.9764706f, 1f);
 
     private void Start()
     {
-       joueur1 = ChoixPersonnage1.gameObject.GetComponent<Image>();
-       joueur2 = ChoixPersonnage2.gameObject.GetComponent<Image>();
-        print(PersonnageJ1+ " " + PersonnageJ2);
+        joueur1 = ChoixPersonnage1.gameObject.GetComponent<Image>();
+        joueur2 = ChoixPersonnage2.gameObject.GetComponent<Image>();
+        print(PersonnageJ1 + " " + PersonnageJ2);
     }
     private void Update()
     {
-        if(joueur1.color != Color.red && joueur2.color != Color.blue)
+        if (joueur1.color != Color.red && joueur2.color != Color.blue)
         {
-            Debug.Log(joueur1+ " " + joueur2);
+            Debug.Log(joueur1 + " " + joueur2);
             Debug.Log("Les 2 on un perso");
             bouton.GetComponent<Image>().color = Color.red;
         }
-    void Update()
-    {
-        
-    }
 
-    public static void FinCombat()
-    {
-        Debug.Log("Fin du combat");
-        SceneManager.LoadScene("SceneFinCombat");
-    }
+        
+    }public static void FinCombat()
+        {
+            Debug.Log("Fin du combat");
+            SceneManager.LoadScene("SceneFinCombat");
+        }
 }

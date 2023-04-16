@@ -1,0 +1,5613 @@
+fileFormatVersion: 2
+guid: 3ce2b9144180f364da41065667ab448a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1628
+        width: 89
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27e8a64e31b2b745922fb06c84be102
+      internalID: -683798646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1628
+        width: 90
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c45b45eb4a046d4abb9a2eedf5d5008
+      internalID: 561421925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1627
+        width: 90
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0cff06f7d31e542a884302731b9050
+      internalID: -368585291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_3
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1645
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68dbf03ad1fc35f40b1f3cd1575d241a
+      internalID: -1577042642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_4
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1646
+        width: 100
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27ebd99d90d74d4cb231016338775de
+      internalID: -566770704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1647
+        width: 100
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed0e52776ca55548a06bf58c484684f
+      internalID: 67817100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_6
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1648
+        width: 100
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c0b0430f16407419faf6b65c60cfc7
+      internalID: -1540050623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_7
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1654
+        width: 92
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b41457352bb2064d93be46b39ebb921
+      internalID: 712161255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_8
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1643
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5090c3f4bcb23654a92206db64a3fa9f
+      internalID: 322217854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_9
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1661
+        width: 104
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57429d63c4f91941ad3808bfe7aa96a
+      internalID: 1527707218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_10
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1660
+        width: 129
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7717bb503f0e64ab0d780ff1d96175
+      internalID: -1724356985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_11
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1616
+        width: 85
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fcd9db9e41f5b4b8ad9f8ec5f31c3e
+      internalID: -422263351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_12
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1659
+        width: 75
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5feb6440fcb63dc4c819290e81817bb7
+      internalID: -1521252678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_13
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1658
+        width: 107
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72aa8b35b00a4394c83ef54187843c27
+      internalID: 1337181556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_14
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1656
+        width: 132
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1652ab09760fbf3449f63eca4279b8ee
+      internalID: -612830150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_15
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1670
+        width: 86
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b69d59eb6897a4c8433e6fc6b6c544
+      internalID: 1726184627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_16
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1655
+        width: 108
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67d565d35ec2334db0207b4bca3a217
+      internalID: -731400249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_17
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1656
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360e4163c8f67c5458798b8678b55a0e
+      internalID: -1943341691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_18
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1666
+        width: 107
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2533f5d029896f2479168000afa47177
+      internalID: -1087897095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_19
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1550
+        width: 74
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd529742e559044e91d92389a09fbf5
+      internalID: 882416294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_20
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1564
+        width: 113
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c46738006a36d4d832f3954a649214
+      internalID: 1266389932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_21
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1565
+        width: 102
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc36283384c90ad4eae8ef95dd462287
+      internalID: -771836033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_22
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1561
+        width: 112
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b5c491579b14143abac08a918ba955
+      internalID: 1787708270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_23
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1553
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6935188df96353c44af67740c3909576
+      internalID: 1474096553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_24
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1574
+        width: 95
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0630db8d64324d34295494040f62720b
+      internalID: -691407812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_25
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1536
+        width: 89
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bc4db701794e447aa02b4dea98578b
+      internalID: -1728710849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_26
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1538
+        width: 80
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f54951749539b949a5dffde2311cc5d
+      internalID: 1922773696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_27
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1524
+        width: 81
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f94f06826878d64586be6227ba01e4a
+      internalID: 1536869245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_28
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1547
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2621c28aba9c77646b0c777117d90b51
+      internalID: -259522850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_29
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1596
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c296a8e72d06844994933077baeca74
+      internalID: -1559791219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1427
+        width: 87
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5abad2da83e7e4ea74464b4786f845
+      internalID: 1350836017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_31
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1421
+        width: 90
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d525aadbf5aed8b409c642d1f8eccfff
+      internalID: 593940009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_32
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1432
+        width: 89
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2858dd58f313fcf4d9fa75c49e8d4636
+      internalID: 545260965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_33
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1422
+        width: 93
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9264b94c1689246be9a4cd05bbf816
+      internalID: 103810829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_34
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1454
+        width: 92
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61903a8368beb214bbf7fc523a617ffd
+      internalID: 1049049604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_35
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1451
+        width: 92
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13da05c353a3435438bbbf957f98c6e9
+      internalID: -680239656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_36
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1442
+        width: 92
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0caff8b09db95f4fa82390c0e2b0ca7
+      internalID: 274728738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_37
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1427
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e2187ae94f64049803b268d2059ffe
+      internalID: -2032164150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_38
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1425
+        width: 87
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7b5f1011f91944fb50809279c25652
+      internalID: 790205049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_39
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1424
+        width: 65
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b441877fa876f4496507ef5457a4a8
+      internalID: 919709107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_40
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1423
+        width: 61
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f562636de4ff9314d87be3611782f0be
+      internalID: 1784429717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_41
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1425
+        width: 73
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2749c522500ee4abc85e6b91dd76dc
+      internalID: 2020931986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_42
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1424
+        width: 81
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eff2106b788d7d4aa72018bf78df38d
+      internalID: 59199206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_43
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 1424
+        width: 71
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92a4427c97220c41a5305a8cfb95699
+      internalID: -1590053134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_44
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1422
+        width: 60
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d9561dc769ad749903df8e54043732
+      internalID: 713020651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_45
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1425
+        width: 76
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a562addab86e664bbfcff1befbde965
+      internalID: -881758933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_46
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1424
+        width: 88
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739b2773a5c013a47984fb7e86339dfd
+      internalID: 43891242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_47
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1422
+        width: 94
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a638ddec18b96cd4881123e06196d966
+      internalID: 1294279637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_48
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 1493
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac88c7e419a7aa14cad0f22b2a1113e9
+      internalID: 1223216893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_49
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1435
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7093f2a249ef5644ebaebfbb0bc038ca
+      internalID: -1454212311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_50
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1430
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7485585c87b7804aa60f1fb734b9ea1
+      internalID: 336469919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_51
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1489
+        width: 89
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b09fc769c0015d459cb49aeb72f1b2c
+      internalID: -868072244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1311
+        width: 131
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78fb5a287b0c9f489e772939348fdb9
+      internalID: -983560440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_53
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1330
+        width: 85
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ac75244a415c345bd348694dee5b25
+      internalID: 1291598688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_54
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1281
+        width: 87
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c9ccf03c565324e98a200ecf7bc4ec
+      internalID: -1574126082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_55
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1308
+        width: 106
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b347dee3ba55643a418f14b8ee6dd8
+      internalID: 810945817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_56
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1308
+        width: 87
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6aff872e3afa7241a9895be1367b47b
+      internalID: 1657539864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_57
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1305
+        width: 69
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c31ac04542f2984790de328124ec4ad
+      internalID: 630784850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_58
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1304
+        width: 66
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8457b5ebcb9ee45a5cdb5719bd7872
+      internalID: -1306420622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_59
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1305
+        width: 77
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1caeb4ea14159f4caa407dc555e9a21
+      internalID: -1157940971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_60
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1307
+        width: 83
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8379a6a84e7d504dadb420d9ecb10ba
+      internalID: -2062985540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_61
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1308
+        width: 76
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148194993c768b24093c8bb1bd16e03d
+      internalID: -1274346443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_62
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1306
+        width: 66
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ec62a1fbc0369448fef6dd4bb6a302
+      internalID: 350435397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_63
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1306
+        width: 82
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a7fe738244a2f4e8412857f73408b7
+      internalID: 1858420744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_64
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1305
+        width: 89
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d29f6690e07a9458eb2acec3f2c619
+      internalID: -548638234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_65
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1308
+        width: 91
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c728b9f89a8ae4794b11b3befdfd58
+      internalID: 645519120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_66
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1311
+        width: 126
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a3a8efb50d88c428eb83726759d467
+      internalID: -914391754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_67
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1309
+        width: 88
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3317a7ada4e512e41a130a3ea7ad7258
+      internalID: 626532546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_68
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 1309
+        width: 124
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0b6f5ef65bbe046b9ce6ffa5072c21
+      internalID: 649341610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_69
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 1341
+        width: 108
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a3741085c06534db121612d1f2ae89
+      internalID: 958772438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_70
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 1334
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9907e6748f20bcf4d9391196a845bffa
+      internalID: 1418276670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_71
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1391
+        width: 74
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8d153e3f50c7c45abf241a463b0387
+      internalID: -165554855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_72
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 1393
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54f048b3fd98a34f9d75d84320d8ef0
+      internalID: 658144666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_73
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1200
+        width: 88
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcd5152a6c5803499542734ec7e85d2
+      internalID: -714372734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_74
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1194
+        width: 89
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60570d0f74782d48b2039fdf8aecbb8
+      internalID: -1416556799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_75
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1197
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dbeff743c27194eb55f122c4e6fa59
+      internalID: -686493974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_76
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 1194
+        width: 99
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d500c9e181a6503418dda3b92a49118f
+      internalID: -1748994530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_77
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1199
+        width: 74
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7565f28e6e0453246a3c1abdc4a56a90
+      internalID: -384936305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_78
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 1191
+        width: 88
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8ebf4380960d54895c1b2c728d57b9
+      internalID: 1907726502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_79
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 1246
+        width: 116
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651262d542614a24caa665496acbef80
+      internalID: -282916704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_80
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1219
+        width: 114
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c432a8994e67644b93cb48d57d5783
+      internalID: 1807669252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_81
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 1241
+        width: 143
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533f8156c1e598744ae508434009e13d
+      internalID: -206418163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_82
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1134
+        width: 87
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda62802193dea14384649b80485d7f4
+      internalID: 1281381583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_83
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1086
+        width: 143
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2473c9f686421d5469609364d614d90d
+      internalID: -2069634559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_84
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1085
+        width: 99
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8b04de4e97fac4f99dae1407216104
+      internalID: 1622366159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_85
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1089
+        width: 124
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d0deb510dbf294ebafcc1398322020
+      internalID: -1080660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_86
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1086
+        width: 158
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b0c80b57ce66f459fe94857836e59a
+      internalID: 103611279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_87
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1087
+        width: 115
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d3f181d4da7f54c9fc02a1f4017e2c
+      internalID: 1514077661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_88
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1125
+        width: 101
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013d5106a2122474b8a2017eb817ef35
+      internalID: 790306542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_89
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1104
+        width: 131
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0c932472cfbda4c9ed55479f522944
+      internalID: -756464865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_90
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1106
+        width: 92
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff983de6887e26947831997df9ae8472
+      internalID: 1190641351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_91
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1080
+        width: 144
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dfd3c21ac0fc84b958b6037684f39d
+      internalID: 1648560947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_92
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1158
+        width: 113
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907661f7ae1b9e849a7a816a7246686e
+      internalID: -1184199083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_93
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1127
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790496493f6be624aa809d0d3d9cbf10
+      internalID: -1563246343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_94
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 1150
+        width: 64
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4263570ed90a8a64ea637b4351e4885d
+      internalID: -554198454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_95
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1145
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5eef7edc1c8db48bdbc1689390044b
+      internalID: 2073194972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1092
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9905f69275a4740a436af8bfc82f2a
+      internalID: -97923653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_97
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1099
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8724112c591fc42817a949ed9d76c7
+      internalID: -1159424271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_98
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 1100
+        width: 152
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e1aa0e40a4c6c4dabecb98fa1aee0a
+      internalID: 1940038404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_99
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1104
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a517eb903deafa438897a6a34bb7997
+      internalID: -184681743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_100
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1092
+        width: 106
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0947e2099873642ae6dea0b555c481
+      internalID: 865478934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_101
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 1004
+        width: 99
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b6f2a033c28424eb722ecce12233fe
+      internalID: -948971304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_102
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 1065
+        width: 84
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b15bd813949e4f4f8d5801aa0adfdae
+      internalID: 109956478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_103
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1056
+        width: 54
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da8ae43518ff6a4ca889be61449921f
+      internalID: 1272951868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_104
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1065
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc79823fc9e4b848af6e788870674dd
+      internalID: 477635972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_105
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 967
+        width: 179
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe0c74ca875d61449ebb0484becb381
+      internalID: -1561746917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_106
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1041
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c104f317b134d6949b07a9f8170e3277
+      internalID: 1626332667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_107
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1052
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bdbcc4f5578fd46a6eafca0cb2e4ac
+      internalID: -1755080762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_108
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1053
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de563955c89174a4a85ace4705ff22c6
+      internalID: -2054453729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_109
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1003
+        width: 120
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c8a04522b68ad4ebc8ed2098566018
+      internalID: 983947319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_110
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 997
+        width: 118
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9dc4be04721e35418d3e72872bf00bd
+      internalID: 42563697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_111
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 1009
+        width: 97
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb50054b4174b7439001fb377fe9163
+      internalID: -1703102332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_112
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1001
+        width: 88
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9904bdc06542a914796f6e8495108cd4
+      internalID: -1713639879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_113
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1007
+        width: 85
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f61d01090f546f428736e0ccaf668e7
+      internalID: 347079513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_114
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 947
+        width: 112
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906da160fc5ab934da22bf1acf9e176e
+      internalID: 532968879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_115
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 945
+        width: 155
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db3fda6ce2513c4f873d7720d3ffb55
+      internalID: 2099743822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_116
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 944
+        width: 137
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a02b2229531c2419964c0fe40c2455
+      internalID: 765739860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_117
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1034
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728131a0e105ae741a316ce1bdb39509
+      internalID: 1636875483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_118
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 942
+        width: 111
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5994f1fefbe6cb14784c35b4a202f1f1
+      internalID: 1275188407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_119
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 937
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdc8baeec90f634c8e61443c14eaba8
+      internalID: 627726359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_120
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 931
+        width: 131
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f00dd7f4ef708468ccf82e4a0c9614
+      internalID: 1743127599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_121
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1031
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380f52e9ffa2e854a9c06f477a5aa49b
+      internalID: -616499363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_122
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 907
+        width: 115
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ded6cc8eaf58a844bb78926ca091b4f
+      internalID: 1891287019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_123
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1005
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db33bb29bf24ea4a965b3ee9b6608f7
+      internalID: -2132998062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_124
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1016
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283c24232d6ee9a479366fd9f1b76e6f
+      internalID: 1362283692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_125
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 965
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62e1f95666033741a9a914c34f9ce69
+      internalID: 867329428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_126
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 969
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f288ece523bc7499b28cd6aaa72273
+      internalID: -388882697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_127
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 918
+        width: 92
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f04d3cc803932446aba66c2caba3752
+      internalID: 1664669374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_128
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 878
+        width: 108
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb4e59153bdf89429bac6d22cc4b429
+      internalID: -719650832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_129
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 875
+        width: 120
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826eabeeab3a029428712f16c65c916e
+      internalID: 1305450372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_130
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 897
+        width: 114
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4866093ff1d84458ff3e808a65dfad
+      internalID: -814504995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_131
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 894
+        width: 109
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c0ab90042b0dc4e83351c3a65a9451
+      internalID: 621191494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_132
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 768
+        width: 78
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb36d096aca75b64983e5b274b24b221
+      internalID: 1082421996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_133
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 758
+        width: 109
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb9d5b520ee65f4795da5fe703e3b09
+      internalID: -1249492216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_134
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 760
+        width: 132
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6f2a4e5e87a2b459be094ebc68e4d9
+      internalID: 445480155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_135
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 766
+        width: 111
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba9790e677e83d4e871d99fa3213a8e
+      internalID: 437955808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_136
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 759
+        width: 101
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4e7a7eacce9fa42a1793859abff237
+      internalID: 1232005063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_137
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 762
+        width: 114
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4a4075e42cde942ac6b9fb64cf1145
+      internalID: 1726014876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_138
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 743
+        width: 81
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7225127a81cd9f849beb727aa1914cb8
+      internalID: 1471023164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_139
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 732
+        width: 112
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15c7f72ffbdb0b4c849cd84e73c8df3
+      internalID: 1521038658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_140
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 730
+        width: 132
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cea89caf361b964795590c6f09a2a8a
+      internalID: 730721822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_141
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 733
+        width: 117
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6556b152125bd1547ab234a5bea8ed75
+      internalID: 1343707311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_142
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 737
+        width: 94
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7bd5e2c35e57f40ad75f59af38b77b
+      internalID: -353494474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_143
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 733
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac50a20859154dc4c95160c83338309a
+      internalID: 404870968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_144
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 739
+        width: 94
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587e992774141cc4991caa2054176342
+      internalID: -1385264082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_145
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 769
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822b086f31189e0498d71d1b21683329
+      internalID: -814101940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_146
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 800
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dc653f39a70684caf55a745d9eb29b
+      internalID: 1354643436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_147
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 607
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ef428cbd6abc64988ec0a36198bcac
+      internalID: -1560963500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_148
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 644
+        width: 113
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97a4dfe455b8344cae6b1f84ca6ff00
+      internalID: -2012187547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_149
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 617
+        width: 140
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa402fc106012d4eab6d6bd6ee1d01e
+      internalID: -965273497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_150
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 617
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf54bc55d1379c4fb83e20b3ef79574
+      internalID: 208202468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_151
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 617
+        width: 143
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bb1eedc9a721047bad221aecc4ec7a
+      internalID: -1766711491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_152
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 617
+        width: 101
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50388d926ebd0448abd72ab81d7ea05
+      internalID: 1464384672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_153
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 705
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9152f1c9e92b15e46a766b6c2c8341f5
+      internalID: 968792871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_154
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 607
+        width: 156
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4904440fd2eaa634997bac4290fa1fb5
+      internalID: 63716373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_155
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 607
+        width: 101
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9653694862c37e4caf2828b1edb91de
+      internalID: 1647493654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_156
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 637
+        width: 134
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9680bc2712b294d995fee73d872e60
+      internalID: -2067975878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_157
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 595
+        width: 65
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b453998164f8d0b48b3306faf68432e8
+      internalID: 1520544518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_158
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 673
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b434490a8a4b744291477747181afc4
+      internalID: 1985275896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_159
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 704
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de417c342d811f4daa0d58021a0834e
+      internalID: -173486062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_160
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 680
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369c6ba6e7d787242856a69841a0abc6
+      internalID: -2051422993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_161
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 636
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8b192a1cd99224bbc0336a578b1bbf
+      internalID: -1042280276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_162
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 611
+        width: 152
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39776aafe910c44287339bcc786c07b
+      internalID: 1660268855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_163
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 650
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf1f8fbe73583c42b75d03b58f450d3
+      internalID: 2036500211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_164
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 566
+        width: 109
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b95d65ba2d94047924df13397dd332
+      internalID: 1113054980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_165
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 612
+        width: 152
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac3922b033c03d479f1e8517a9c2ba6
+      internalID: 636871874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_166
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 498
+        width: 79
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc4357f53337aa439e12ff29922d412
+      internalID: -1274934357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_167
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 506
+        width: 85
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b7de728e52d5d49a79da495a3f5d8a
+      internalID: 2080675692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_168
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 512
+        width: 103
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159ef47b4e19d8e44a549237e75e8acc
+      internalID: -40183309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_169
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 511
+        width: 128
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f2745d1abff5443aa85a074b59cdcd
+      internalID: -652597199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_170
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 506
+        width: 110
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4f78520881563409ed6c63761153e6
+      internalID: 1536579144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_171
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 508
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926e786d3a469604e8ed344ebe590162
+      internalID: 198180251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_172
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 475
+        width: 90
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3347847ac51a72d46b1f29187777307f
+      internalID: 2086802002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_173
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 523
+        width: 124
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b3c26dbe3aadf40958d6e514305b3c
+      internalID: 1615629949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_174
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 525
+        width: 158
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185b4d29c6c32bf4e88b7ec2f2b9521e
+      internalID: 104519720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_175
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 522
+        width: 115
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e42edbd05742874f974fc7c8fc8f67f
+      internalID: 156718646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_176
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 509
+        width: 127
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbbed591c7b3a24f9c070b4ea3a12bb
+      internalID: -767000132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_177
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 499
+        width: 68
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b100727f5eec44fbfb921e95751120
+      internalID: -47072297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_178
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 498
+        width: 104
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66329cf4cabd737439183e5403f50f79
+      internalID: -1942094651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_179
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 515
+        width: 125
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013db9cf09271914d9a629b1a94182ad
+      internalID: -1807687645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_180
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 435
+        width: 81
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83452919d60992d4f8eb8c97f0b4699a
+      internalID: 229343017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_181
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 512
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bbac372418c5242991558238f05b47
+      internalID: 3235586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_182
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 434
+        width: 121
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08127ceae3f8d874c810d5d13a63a662
+      internalID: -20337023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_183
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 435
+        width: 125
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce56d99149e3a9f4da379c87794993c5
+      internalID: -1559508554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_184
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 418
+        width: 104
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2372d667eba3fb458ea70ff579b3676
+      internalID: -768505412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_185
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 512
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56c9cd025a5f3d4cb0b3b41313d3fe8
+      internalID: -509040402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_186
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 507
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1936305a2fccea4e8b90273c7f294ba
+      internalID: -1903035524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_187
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 501
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f31223748734654db3d4ef736ed47f1
+      internalID: -1300069569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_188
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 419
+        width: 68
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eed6658bebcfdc4cb8763127525fa13
+      internalID: 45435671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_189
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 420
+        width: 129
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8738fc6cf87b8794db911498e56d94af
+      internalID: 1106662336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_190
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 456
+        width: 61
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2142d467727957e458b11e0a3f591794
+      internalID: -1686959985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_191
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 463
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56962e9da6a8b242971db2ffd753c37
+      internalID: -501735950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_192
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 496
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389484525a1b87a4494cdc144bf2c991
+      internalID: 370507778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_193
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 495
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5432dcc25f712bd47b1f5e9096588e7e
+      internalID: 1250126942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_194
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 494
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0616db0cb156a9a4db2937b589ddea15
+      internalID: -514587390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_195
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 416
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3ffc2f405c5b84ca97089bc5fd33bc
+      internalID: -1106991119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_196
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 420
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af623a928e52aa945838eb893bc3a361
+      internalID: -818887912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_197
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 421
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e403b1491704b24aa9830fd739274c8
+      internalID: -1564716479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_198
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 340
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9e3adbc8eff3b408cfd2e38af040bb
+      internalID: 11007661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_199
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 334
+        width: 127
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1bdd3e79fef93419fc9711fb2e2767
+      internalID: 1334842039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_200
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 313
+        width: 104
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2d10dde3a90354e95509d9f20af285
+      internalID: -1900361969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_201
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 305
+        width: 80
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079a3af6b1528e54ebced95c193f7e1d
+      internalID: -617505972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_202
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 319
+        width: 102
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681341cfe86020b408e424b4f6081e36
+      internalID: -1065674577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_203
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 311
+        width: 137
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d21f14aeb5ef14d9e2e1144c2bf958
+      internalID: 806951864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_204
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 313
+        width: 104
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b592c6dbcd4c342b4e8d6a664b11a1
+      internalID: 1194234627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_205
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 305
+        width: 80
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942d20219e14fa54aa47d9b82a231c80
+      internalID: 1393554540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_206
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 313
+        width: 104
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f7c41a7a930d14fbc569d35b389bb3
+      internalID: 274429389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_207
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 325
+        width: 104
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d5298e156d947429879a43f42dd47b
+      internalID: -1944934149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_208
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 311
+        width: 137
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc31da5c36fdac4589dcea551822dd8
+      internalID: 375829016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_209
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 305
+        width: 80
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7720a25c5129a6748aa324506f926e4e
+      internalID: 1092581664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_210
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 320
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e570e33195de35c4883e3b3e88d022b1
+      internalID: -1473674153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_211
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 327
+        width: 108
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f23796f15733cc428018a5a0faecf7d
+      internalID: -359289044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_212
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 320
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd3e1d6295d706458a4a4f1525a158f
+      internalID: 1273395877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_213
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 214
+        width: 97
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2514243c0f250b143b36c8959893b679
+      internalID: 2053357860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_214
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 210
+        width: 80
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbe406d8586aad4bb0f089031d74fa8
+      internalID: -1767897302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_215
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 225
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20a572085c87c84c8568e1a1f4eb76e
+      internalID: -1617699511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_216
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 278
+        width: 152
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3a72e7f1869f34d90aeae8ecfd27c0
+      internalID: 740618966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_217
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 224
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65be8a8eb862f8f41aac71ee1e178100
+      internalID: 1079241681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_218
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 179
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf96065e7c46b694985e20ed34b3ce5b
+      internalID: 1416480653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_219
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 179
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed07079c681fa004491e035b65303c1c
+      internalID: -2132744686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_220
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 179
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382e79c3c4fd20b4a8d1a904f222144e
+      internalID: 1867308174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_221
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 179
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b0bb3124c9c2e43b9bc5c634e29bb8
+      internalID: 1793838985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_222
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 213
+        width: 152
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b678b1fa9d8544c45a7d85595c1365d3
+      internalID: -502356966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_223
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 213
+        width: 152
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59550a7e3081179468da07b4aa299def
+      internalID: -375924778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_224
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 179
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5eac48e32967b9479e38eea8e74d9f8
+      internalID: 1091097302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_225
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 179
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9b010c184e9064e9c03641adf99aee
+      internalID: 1664453239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_226
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 109
+        width: 129
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3a3e705d3a0b44c841e5d50aa749f6
+      internalID: -1598938185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_227
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 115
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b84e77d973d63d4eab72bf53e31bf0a
+      internalID: -197295433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_228
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 83
+        width: 137
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b9ecc232d17594088ff700ec8c6d4b
+      internalID: -1541713327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_229
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 117
+        width: 152
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0305ac77c544142b1d0b204b073373
+      internalID: 698840046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_230
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 131
+        width: 156
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361e9ae434fe4a14a944908cdb9628e6
+      internalID: -915373269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_231
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 106
+        width: 112
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0e6e6b606d9204bbf8144e7415138e
+      internalID: -1955456516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_232
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 117
+        width: 152
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd92c02fc50caa04d96c1d57651d6366
+      internalID: -1421384988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_233
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 117
+        width: 152
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b648ff037f997469c510ac2072a705
+      internalID: -1375443624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_234
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 117
+        width: 152
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66457a8310752b3419859b55bd1a1166
+      internalID: 958790673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_235
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 117
+        width: 152
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deba6c62282eadf4c91a030c19c26903
+      internalID: -1212185754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_236
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 117
+        width: 152
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4595325c3ac1443a912726c4d01151
+      internalID: 1448472273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_237
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 117
+        width: 152
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619d0c57fcee8ed4da60c1e7b67fb032
+      internalID: -1578109797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_238
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1
+        width: 112
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c40b043427ca894aaf4dcb138fdedb5
+      internalID: 1340509674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_239
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1
+        width: 137
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9f187071fa4ad4ebb20597a08242ee
+      internalID: 117810546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_240
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1
+        width: 137
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51333a6bc657c15448431a4225ff5a59
+      internalID: -1739535381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_241
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 5
+        width: 183
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f758cf6c0c840314586323ea2fa1aca6
+      internalID: 128647832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_242
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 5
+        width: 183
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3c465a69ab55948875a3927f745216
+      internalID: 178901750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_243
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 36
+        width: 137
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c48983323d70fb468552b68c5775312
+      internalID: -893362518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_244
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 22
+        width: 137
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a84a84ffe5ac794d8127fba9f3adf2e
+      internalID: -151932282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_245
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 9
+        width: 137
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a4decda90633b44b1f86ffea36f204
+      internalID: 1575607110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_246
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 7
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdd5ac470472e74b9aa8b1b3aad5ab2
+      internalID: -783778723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_247
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 6
+        width: 134
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b135537b43281418f5f8824aa6ab06
+      internalID: -186782959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_248
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 9
+        width: 80
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fae947fa4f59649ad13e276c75fa69
+      internalID: 2069895598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_210: -1473674153
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_22: 1787708270
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_71: -165554855
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_72: 658144666
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_56: 1657539864
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_136: 1232005063
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_129: 1305450372
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_19: 882416294
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_176: -767000132
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_138: 1471023164
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_187: -1300069569
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_173: 1615629949
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_233: -1375443624
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_30: 1350836017
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_47: 1294279637
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_144: -1385264082
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_217: 1079241681
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_99: -184681743
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_180: 229343017
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_101: -948971304
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_215: -1617699511
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_90: 1190641351
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_52: -983560440
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_106: 1626332667
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_196: -818887912
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_164: 1113054980
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_100: 865478934
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_184: -768505412
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_246: -783778723
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_203: 806951864
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_82: 1281381583
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_23: 1474096553
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_67: 626532546
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_117: 1636875483
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_218: 1416480653
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_171: 198180251
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_45: -881758933
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_228: -1541713327
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_178: -1942094651
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_1: 561421925
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_50: 336469919
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_169: -652597199
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_79: -282916704
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_147: -1560963500
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_88: 790306542
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_141: 1343707311
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_21: -771836033
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_172: 2086802002
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_195: -1106991119
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_197: -1564716479
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_158: 1985275896
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_135: 437955808
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_190: -1686959985
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_159: -173486062
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_244: -151932282
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_192: 370507778
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_211: -359289044
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_247: -186782959
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_63: 1858420744
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_216: 740618966
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_74: -1416556799
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_237: -1578109797
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_206: 274429389
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_128: -719650832
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_95: 2073194972
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_57: 630784850
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_29: -1559791219
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_118: 1275188407
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_155: 1647493654
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_83: -2069634559
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_87: 1514077661
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_84: 1622366159
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_175: 156718646
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_43: -1590053134
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_65: 645519120
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_179: -1807687645
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_166: -1274934357
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_12: -1521252678
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_97: -1159424271
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_154: 63716373
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_238: 1340509674
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_6: -1540050623
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_208: 375829016
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_219: -2132744686
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_0: -683798646
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_16: -731400249
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_17: -1943341691
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_36: 274728738
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_204: 1194234627
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_130: -814504995
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_89: -756464865
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_232: -1421384988
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_110: 42563697
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_44: 713020651
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_11: -422263351
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_37: -2032164150
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_107: -1755080762
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_86: 103611279
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_236: 1448472273
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_235: -1212185754
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_8: 322217854
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_127: 1664669374
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_58: -1306420622
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_104: 477635972
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_201: -617505972
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_234: 958790673
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_55: 810945817
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_15: 1726184627
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_177: -47072297
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_156: -2067975878
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_46: 43891242
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_13: 1337181556
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_24: -691407812
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_149: -965273497
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_143: 404870968
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_121: -616499363
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_205: 1393554540
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_150: 208202468
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_229: 698840046
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_157: 1520544518
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_91: 1648560947
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_39: 919709107
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_34: 1049049604
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_182: -20337023
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_213: 2053357860
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_20: 1266389932
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_183: -1559508554
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_148: -2012187547
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_123: -2132998062
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_242: 178901750
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_142: -353494474
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_76: -1748994530
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_120: 1743127599
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_33: 103810829
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_75: -686493974
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_185: -509040402
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_194: -514587390
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_212: 1273395877
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_186: -1903035524
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_68: 649341610
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_199: 1334842039
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_153: 968792871
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_225: 1664453239
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_145: -814101940
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_220: 1867308174
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_27: 1536869245
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_31: 593940009
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_103: 1272951868
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_109: 983947319
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_94: -554198454
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_18: -1087897095
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_162: 1660268855
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_132: 1082421996
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_139: 1521038658
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_78: 1907726502
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_105: -1561746917
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_241: 128647832
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_188: 45435671
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_10: -1724356985
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_49: -1454212311
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_198: 11007661
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_93: -1563246343
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_51: -868072244
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_53: 1291598688
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_40: 1784429717
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_245: 1575607110
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_222: -502356966
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_161: -1042280276
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_223: -375924778
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_114: 532968879
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_60: -2062985540
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_137: 1726014876
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_151: -1766711491
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_160: -2051422993
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_243: -893362518
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_85: -1080660
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_26: 1922773696
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_80: 1807669252
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_61: -1274346443
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_146: 1354643436
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_4: -566770704
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_191: -501735950
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_126: -388882697
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_98: 1940038404
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_35: -680239656
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_7: 712161255
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_167: 2080675692
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_73: -714372734
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_165: 636871874
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_239: 117810546
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_113: 347079513
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_209: 1092581664
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_59: -1157940971
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_231: -1955456516
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_62: 350435397
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_96: -97923653
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_174: 104519720
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_108: -2054453729
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_224: 1091097302
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_9: 1527707218
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_230: -915373269
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_14: -612830150
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_28: -259522850
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_170: 1536579144
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_69: 958772438
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_41: 2020931986
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_214: -1767897302
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_189: 1106662336
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_102: 109956478
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_3: -1577042642
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_5: 67817100
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_66: -914391754
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_42: 59199206
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_38: 790205049
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_2: -368585291
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_125: 867329428
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_193: 1250126942
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_226: -1598938185
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_119: 627726359
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_70: 1418276670
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_181: 3235586
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_77: -384936305
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_227: -197295433
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_111: -1703102332
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_240: -1739535381
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_25: -1728710849
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_131: 621191494
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_48: 1223216893
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_92: -1184199083
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_32: 545260965
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_133: -1249492216
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_168: -40183309
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_115: 2099743822
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_54: -1574126082
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_152: 1464384672
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_200: -1900361969
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_134: 445480155
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_122: 1891287019
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_202: -1065674577
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_116: 765739860
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_207: -1944934149
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_248: 2069895598
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_221: 1793838985
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_163: 2036500211
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_124: 1362283692
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_64: -548638234
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_112: -1713639879
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_140: 730721822
+      mugen_reverse_flash_sprite_sheet_by_jayhyperstarx_dezx4tr_81: -206418163
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

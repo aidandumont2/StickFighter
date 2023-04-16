@@ -1236,6 +1236,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6904120341130890899}
+  - component: {fileID: 4624953420561244004}
   m_Layer: 0
   m_Name: Joueur
   m_TagString: Untagged
@@ -1266,6 +1267,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4624953420561244004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6904120341130890900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5172aebf00c7a724985ba100976059d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Camps: 
+  isGrounded: 1
+  isCrouching: 0
+  isMoving: 0
+  isSpecialAtt: 0
+  isStatic: 1
+  speed: 5
+  jumpspeed: 2
+  lifepoint: 100
+  stamina: 7
 --- !u!1 &6904120341212453566
 GameObject:
   m_ObjectHideFlags: 0

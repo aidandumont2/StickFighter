@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 604303849584672978}
   - component: {fileID: 1386542687515295022}
   - component: {fileID: 8596774710528834257}
+  - component: {fileID: -599092230540938840}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Untagged
@@ -100,6 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc5b42feb2f998741a0c55c3cd299e07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: -599092230540938840}
   rb: {fileID: 604303849584672978}
   spriterenderer: {fileID: 4799919868383535347}
   spriteCrouch: {fileID: -2413806693520163455, guid: 3bff3a0fd51923b49adee7f56ba8bd1a, type: 3}
@@ -164,3 +166,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackSpecial: {fileID: 7943031312016642024, guid: 672d1ce9bcf9a4548a8d51d6d4db703c, type: 3}
+  player: {fileID: -599092230540938840}
+--- !u!114 &-599092230540938840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4799919868383535356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5172aebf00c7a724985ba100976059d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGrounded: 1
+  isCrouching: 0
+  isMoving: 0
+  isSpecialAtt: 0
+  speed: 5
+  jumpspeed: 2
+  lifepoint: 100
+  stamina: 7

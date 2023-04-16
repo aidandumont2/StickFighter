@@ -8,6 +8,7 @@ using UnityEngine.UI;
 
 public class DétectionBouton : MonoBehaviour
 {
+    ChangementScene changementScene;
     private void OnTriggerEnter(Collider other)
     {
         GameObject box = other.gameObject;

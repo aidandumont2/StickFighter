@@ -7,6 +7,7 @@ public class ChoixBouton : MonoBehaviour
 {
     private void Update()
     {
+
         if (Input.GetButtonDown("Debug Vertical"))
         {
             float direction = Input.GetAxisRaw("Debug Vertical");

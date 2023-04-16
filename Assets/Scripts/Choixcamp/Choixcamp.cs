@@ -23,8 +23,6 @@ public class Choixcamp: MonoBehaviour
     private void Move(float distance)
     {
         Vector3 newPosition = transform.position + distance * Vector3.right;
-
-        /// TODO: Modifier ce test pour que cela fonctionne avec un nombre pair d'animaux
         
         if (Mathf.Abs(newPosition.x) <= 6 && Mathf.Abs(newPosition.x) >= -6)
         {

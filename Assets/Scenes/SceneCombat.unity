@@ -157,7 +157,7 @@ MonoBehaviour:
   Doomsday: {fileID: 8318993732363395605, guid: 063b21d107bf73d4ca52df9871723444, type: 3}
   CaptainFalcon: {fileID: 6215255013137341257, guid: 9a46d71f749160f41bca483cd3fc6bbe, type: 3}
   Flash: {fileID: 9187974251396503103, guid: b956062aa402aec48a697ff2e606081c, type: 3}
-  ReverseFlash: {fileID: 6215255013137341257, guid: 9a46d71f749160f41bca483cd3fc6bbe, type: 3}
+  ReverseFlash: {fileID: 3921398894354582378, guid: 658e01ed987aa974eb10d8198c34c216, type: 3}
   zonespawnJ1: {x: 5, y: 5, z: 5}
   zonespawnJ2: {x: 5, y: 5, z: 5}
 --- !u!4 &609323041

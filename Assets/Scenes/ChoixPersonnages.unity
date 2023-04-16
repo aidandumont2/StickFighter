@@ -1040,7 +1040,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b463c8e094485047a6ee11d1bfa4def, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uISprite: {fileID: 0}
   ChoixPersonnage1: {fileID: 1016696213}
   ChoixPersonnage2: {fileID: 1496692704}
   bouton: {fileID: 1986872190}
@@ -1679,7 +1678,6 @@ GameObject:
   - component: {fileID: 836877051}
   - component: {fileID: 836877055}
   - component: {fileID: 836877056}
-  - component: {fileID: 836877057}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1804,18 +1802,6 @@ MonoBehaviour:
   CaptainFalcon: {fileID: 21300000, guid: b250f23e28cddd84085fbe08dfff6f17, type: 3}
   Flash: {fileID: 21300000, guid: b6a25e5820b165345bddbd2507fa46f1, type: 3}
   ReverseFlash: {fileID: 21300000, guid: 4713293a19d0d734d98b2d994ff773aa, type: 3}
---- !u!114 &836877057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 836877050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87ccab495937c194b829d29d5a22ffbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &872304738
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
+    public Slider lifeBar;
+    public Slider staminaBar;
     public string numPlayer;
     public TextMeshProUGUI refTMP;
     public bool isGrounded = true;
@@ -22,7 +25,8 @@ public class PlayerManager : MonoBehaviour
     
     void Update()
     {
-
+        lifeBar.value = lifepoint;
+        staminaBar.value = stamina;
         if (lifepoint <= 0)
         {
             GameManager.FinCombat();

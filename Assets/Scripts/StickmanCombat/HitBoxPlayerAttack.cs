@@ -18,9 +18,11 @@ public class HitBoxPlayerAttack : MonoBehaviour
             if (typeAttack == "Legere")
             {
                 refPlayerManager.lifepoint -= damageAttackLegere;
+                //gameObject.GetComponent<PlayerManager>().stamina -= 1;
             }else if (typeAttack == "Lourde")
             {
                 refPlayerManager.lifepoint -= damageAttackLourde;
+                //gameObject.GetComponent<PlayerManager>().stamina -= 3;
             }
 
         }

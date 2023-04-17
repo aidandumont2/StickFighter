@@ -9,13 +9,13 @@ public class Chargement : MonoBehaviour
     public GameObject Batman;
     public GameObject Dio;
     public GameObject Doomsday;
-    public GameObject CaptainFalcon;
+    public GameObject Akuma;
     public GameObject Flash;
     public GameObject ReverseFlash;
     public GameObject BatmanSwap;
     public GameObject DioSwap;
     public GameObject DoomsdaySwap;
-    public GameObject CaptainFalconSwap;
+    public GameObject AkumaSwap;
     public GameObject FlashSwap;
     public GameObject ReverseFlashSwap;
 
@@ -44,9 +44,9 @@ public class Chargement : MonoBehaviour
         {
             assignationPersonnage2(DoomsdaySwap);
         }
-        if (GameManager.PersonnageJ2 == "CaptainFalcon")
+        if (GameManager.PersonnageJ2 == "Akuma")
         {
-            assignationPersonnage2(CaptainFalconSwap);
+            assignationPersonnage2(AkumaSwap);
         }
         if (GameManager.PersonnageJ2 == "Flash")
         {
@@ -81,9 +81,9 @@ public class Chargement : MonoBehaviour
             assignationPersonnage1(Doomsday);
             AssignationJ2();
         }
-        if (GameManager.PersonnageJ1 == "CaptainFalcon")
+        if (GameManager.PersonnageJ1 == "Akuma")
         {
-            assignationPersonnage1(CaptainFalcon);
+            assignationPersonnage1(Akuma);
             AssignationJ2();
         }
         if (GameManager.PersonnageJ1 == "Flash")

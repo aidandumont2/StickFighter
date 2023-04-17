@@ -18,11 +18,9 @@ public class GameManager : MonoBehaviour
     public static string PersonnageJ1;
     public static string PersonnageJ2;
     private Color colors = new Color(1f, 0.9764706f, 0.9764706f, 1f);
-    public TextMeshProUGUI Timer;
-    public float timeRemaining = 5;
+ 
     private void Start()
     {
-        Timer.text = timeRemaining.ToString();
         joueur1 = ChoixPersonnage1.gameObject.GetComponent<Image>();
         joueur2 = ChoixPersonnage2.gameObject.GetComponent<Image>();
         print(PersonnageJ1 + " " + PersonnageJ2);
@@ -30,15 +28,7 @@ public class GameManager : MonoBehaviour
    
     private void Update()
     {
-        if (timeRemaining > 0)
-        {
-            timeRemaining -= Time.deltaTime;
-            Timer.text = timeRemaining.ToString("0");
-        }
-        if(timeRemaining <= 0)
-        {
-            FinCombat();
-        }
+        
         if (joueur1.color != Color.red && joueur2.color != Color.blue)
         {
             Debug.Log(joueur1 + " " + joueur2);

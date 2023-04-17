@@ -17,7 +17,7 @@ public class ChoixPersonnages : MonoBehaviour
     public Sprite Batman;
     public Sprite Dio;
     public Sprite Doomsday;
-    public Sprite CaptainFalcon;
+    public Sprite Akuma;
     public Sprite Flash;
     public Sprite ReverseFlash;
     public static bool choix=false;
@@ -57,11 +57,11 @@ public class ChoixPersonnages : MonoBehaviour
             GameManager.PersonnageJ1 = "Doomsday";
             choix = true;
             }
-            if (other == "CaptainFalcon")
+            if (other == "Akuma")
             {
-                Joueur1.gameObject.GetComponent<Image>().sprite = CaptainFalcon;
+                Joueur1.gameObject.GetComponent<Image>().sprite = Akuma;
             Joueur1.gameObject.GetComponent<Image>().color = Color.white;
-            GameManager.PersonnageJ1 = "CaptainFalcon";
+            GameManager.PersonnageJ1 = "Akuma";
             choix = true;
             }
             if (other == "Flash")
@@ -100,11 +100,11 @@ public class ChoixPersonnages : MonoBehaviour
             Joueur2.gameObject.GetComponent<Image>().color = Color.white;
             GameManager.PersonnageJ2 = "Doomsday";
         }
-            if (other == "CaptainFalcon")
+            if (other == "Akuma")
             {
-                Joueur2.gameObject.GetComponent<Image>().sprite = CaptainFalcon;
+                Joueur2.gameObject.GetComponent<Image>().sprite = Akuma;
             Joueur2.gameObject.GetComponent<Image>().color = Color.white;
-            GameManager.PersonnageJ2 = "CaptainFalcon";
+            GameManager.PersonnageJ2 = "Akuma";
         }
             if (other == "Flash")
             {

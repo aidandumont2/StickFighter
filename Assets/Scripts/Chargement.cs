@@ -12,6 +12,12 @@ public class Chargement : MonoBehaviour
     public GameObject CaptainFalcon;
     public GameObject Flash;
     public GameObject ReverseFlash;
+    public GameObject BatmanSwap;
+    public GameObject DioSwap;
+    public GameObject DoomsdaySwap;
+    public GameObject CaptainFalconSwap;
+    public GameObject FlashSwap;
+    public GameObject ReverseFlashSwap;
 
     [SerializeField]
     private Vector3 zonespawnJ1;
@@ -28,27 +34,27 @@ public class Chargement : MonoBehaviour
     {
         if (GameManager.PersonnageJ2 == "Batman")
         {
-            assignationPersonnage2(Batman);
+            assignationPersonnage2(BatmanSwap);
         }
         if (GameManager.PersonnageJ2 == "Dio")
         {
-            assignationPersonnage2(Dio);
+            assignationPersonnage2(DioSwap);
         }
         if (GameManager.PersonnageJ2 == "Doomsday")
         {
-            assignationPersonnage2(Doomsday);
+            assignationPersonnage2(DoomsdaySwap);
         }
         if (GameManager.PersonnageJ2 == "CaptainFalcon")
         {
-            assignationPersonnage2(CaptainFalcon);
+            assignationPersonnage2(CaptainFalconSwap);
         }
         if (GameManager.PersonnageJ2 == "Flash")
         {
-            assignationPersonnage2(Flash);
+            assignationPersonnage2(FlashSwap);
         }
         if (GameManager.PersonnageJ2 == "ReverseFlash")
         {
-            assignationPersonnage2(ReverseFlash);
+            assignationPersonnage2(ReverseFlashSwap);
         }
     }
     public void assignationPersonnage1(GameObject other)

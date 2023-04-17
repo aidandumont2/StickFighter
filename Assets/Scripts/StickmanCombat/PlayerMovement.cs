@@ -184,8 +184,8 @@ public class PlayerMovement : MonoBehaviour
         saut = KeyCode.UpArrow;
         avancer = KeyCode.RightArrow;
         reculer = KeyCode.LeftArrow;
-        attLeg = KeyCode.Keypad1;
-        attLour = KeyCode.Keypad3;
-        attSpe = KeyCode.Keypad0;
+        attLeg = KeyCode.V;
+        attLour = KeyCode.B;
+        attSpe = KeyCode.N;
     }
 }

@@ -32,6 +32,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5347367896956597513, guid: 4c4c679a8dcdc1b48ad8874e9e4d7d07, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5347367896956597513, guid: 4c4c679a8dcdc1b48ad8874e9e4d7d07, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5347367896956597513, guid: 4c4c679a8dcdc1b48ad8874e9e4d7d07, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.7796197
       objectReference: {fileID: 0}
@@ -73,7 +81,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5347367896956597514, guid: 4c4c679a8dcdc1b48ad8874e9e4d7d07, type: 3}
       propertyPath: m_Name
-      value: Batman (1)
+      value: Batman Swap
       objectReference: {fileID: 0}
+    - target: {fileID: 8471540512622201496, guid: 4c4c679a8dcdc1b48ad8874e9e4d7d07, type: 3}
+      propertyPath: hitBoxAttack
+      value: 
+      objectReference: {fileID: 4330561063926378817}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c4c679a8dcdc1b48ad8874e9e4d7d07, type: 3}
+--- !u!61 &4330561063926378817 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 387191009310434910, guid: 4c4c679a8dcdc1b48ad8874e9e4d7d07, type: 3}
+  m_PrefabInstance: {fileID: 4127173558341490463}
+  m_PrefabAsset: {fileID: 0}

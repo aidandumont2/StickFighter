@@ -9,7 +9,8 @@ public class SpecialAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += speed * Time.deltaTime * new Vector3(20f,0,0);
+            transform.position += speed * Time.deltaTime * new Vector3(20f,0,0);
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

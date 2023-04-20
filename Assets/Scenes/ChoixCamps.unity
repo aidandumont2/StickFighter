@@ -1878,7 +1878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d61ae4f257956354b9d9ffa03ddddf77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneSuivante: Commandes
+  sceneSuivante: ChoixPersonnages
   joueur1: {fileID: 1233527450}
   joueur2: {fileID: 392899829}
 --- !u!1 &2129831979

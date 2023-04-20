@@ -1799,7 +1799,7 @@ MonoBehaviour:
   Batman: {fileID: -1801439418, guid: e709769e87e26dd4aa4b4f36f6b9021d, type: 3}
   Dio: {fileID: 21300000, guid: 0feb0932fd768e947b8328a61450251a, type: 3}
   Doomsday: {fileID: 21300000, guid: 4096c93c16c47f74f890b90c4081096f, type: 3}
-  CaptainFalcon: {fileID: 21300000, guid: b250f23e28cddd84085fbe08dfff6f17, type: 3}
+  Akuma: {fileID: 21300000, guid: 22972eb3bf84986408eb7a0bc9d8bab8, type: 3}
   Flash: {fileID: 21300000, guid: b6a25e5820b165345bddbd2507fa46f1, type: 3}
   ReverseFlash: {fileID: 21300000, guid: 4713293a19d0d734d98b2d994ff773aa, type: 3}
 --- !u!1 &872304738
@@ -2411,7 +2411,7 @@ MonoBehaviour:
   Batman: {fileID: 0}
   Dio: {fileID: 0}
   Doomsday: {fileID: 0}
-  CaptainFalcon: {fileID: 0}
+  Akuma: {fileID: 0}
   Flash: {fileID: 0}
   ReverseFlash: {fileID: 0}
 --- !u!1 &1187598330
@@ -2507,7 +2507,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: CaptainFalcon
+          m_StringArgument: Akuma
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1187598333

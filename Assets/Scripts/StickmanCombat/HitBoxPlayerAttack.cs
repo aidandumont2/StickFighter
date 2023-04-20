@@ -23,7 +23,8 @@ public class HitBoxPlayerAttack : MonoBehaviour
                     Debug.Log("Vrai");
                     Fin.player1Life = refPlayerManager.lifepoint;
                     Debug.Log(Fin.player1Life);
-                }else if(refPlayerManager.gameObject.CompareTag("2"))
+                }
+                else if (refPlayerManager.gameObject.CompareTag("2"))
                 {
                     Debug.Log("Vrai2");
                     Fin.player2Life = refPlayerManager.lifepoint;
@@ -43,28 +44,29 @@ public class HitBoxPlayerAttack : MonoBehaviour
                     Fin.player2Life = refPlayerManager.lifepoint;
                     Debug.Log(Fin.player2Life);
                 }
-                //gameObject.GetComponent<PlayerManager>().stamina -= 1;
-                //gameObject.GetComponent<PlayerManager>().stamina -= 3;
+            }
 
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       
-        if (collision.gameObject.tag != "Camp") { 
+
+        if (collision.gameObject.tag != "Camp")
+        {
             refPlayerManager = collision.gameObject.GetComponentInParent<PlayerManager>();
             isEnnemyUnderAttack = true;
         }
-       
+
         //Debug.Log(refPlayerManager);
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag != "Camp") { 
+        if (collision.gameObject.tag != "Camp")
+        {
             isEnnemyUnderAttack = false;
         }
-        
+
         //Debug.Log(refPlayerManager);
     }
     private void Start()

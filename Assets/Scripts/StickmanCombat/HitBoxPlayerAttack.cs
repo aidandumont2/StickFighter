@@ -14,7 +14,7 @@ public class HitBoxPlayerAttack : MonoBehaviour
     {
         if (isEnnemyUnderAttack == true)
         {
-            Debug.Log("touché");
+            Debug.Log("touchÃ©");
             if (typeAttack == "Legere")
             {
                 refPlayerManager.lifepoint -= damageAttackLegere;
@@ -43,7 +43,8 @@ public class HitBoxPlayerAttack : MonoBehaviour
                     Fin.player2Life = refPlayerManager.lifepoint;
                     Debug.Log(Fin.player2Life);
                 }
-            }
+                //gameObject.GetComponent<PlayerManager>().stamina -= 1;
+                //gameObject.GetComponent<PlayerManager>().stamina -= 3;
 
         }
     }

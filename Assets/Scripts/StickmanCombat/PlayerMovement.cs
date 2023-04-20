@@ -70,8 +70,9 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (Input.GetKeyUp(attLeg) && player.isGrounded == true)
         {
-            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("AttaqueLégère"))
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("AttaqueLégère") && player.stamina >= 1)
             {//anim.GetComponent<Animation>().IsPlaying("AttaqueLégère")
+                player.stamina -= 1;
                 anim.Play("AttaqueLégère");
                 refHitBoxAttack.ActiveHitBox("Legere");
             }
@@ -81,8 +82,9 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (Input.GetKeyUp(attLour) && player.isGrounded == true)
         {
-            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("AttaqueLourde"))
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("AttaqueLourde") && player.stamina >= 3)
             {
+                player.stamina -= 3;
                 anim.Play("AttaqueLourde");
                 refHitBoxAttack.ActiveHitBox("Lourde");
             }

@@ -732,7 +732,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &2663269809172492081
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -812,7 +812,7 @@ GameObject:
   - component: {fileID: 5499176268002033661}
   m_Layer: 0
   m_Name: HitBoxAttack
-  m_TagString: Untagged
+  m_TagString: HitBoxAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

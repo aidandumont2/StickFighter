@@ -5,13 +5,14 @@ using UnityEngine;
 public class HitBoxPlayerAttack : MonoBehaviour
 {
     private PlayerManager refPlayerManager;
-    private bool isEnnemyUnderAttack = false;
+    public bool isEnnemyUnderAttack = false;
     public int damageAttackLegere = 5;
     public int damageAttackLourde = 10;
 
     // Update is called once per frame
     public void ActiveHitBox(string typeAttack)
     {
+        //gameObject.GetComponentInChildren<GameObject>().SetActive(true);
         if (isEnnemyUnderAttack == true)
         {
             Debug.Log("touché");
@@ -51,24 +52,32 @@ public class HitBoxPlayerAttack : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-        if (collision.gameObject.tag != "Camp")
+        Debug.Log("Enter");
+        Debug.Log(collision.gameObject.name);
+        //gameObject.SetActive(true);
+        if (collision.gameObject.name == "HitBoxAttack")
         {
             refPlayerManager = collision.gameObject.GetComponentInParent<PlayerManager>();
             isEnnemyUnderAttack = true;
+            collision.gameObject.GetComponentInParent<HitBoxPlayerAttack>().isEnnemyUnderAttack = true;
         }
 
         //Debug.Log(refPlayerManager);
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag != "Camp")
+        Debug.Log("Sortie");
+        Debug.Log(collision.gameObject.name);
+        //gameObject.SetActive(true);
+        if (collision.gameObject.name == "HitBoxAttack")
         {
             isEnnemyUnderAttack = false;
+            collision.gameObject.GetComponentInParent<HitBoxPlayerAttack>().isEnnemyUnderAttack = false;
         }
 
         //Debug.Log(refPlayerManager);
     }
+    
     private void Start()
     {
         Fin.player1Life = 100;

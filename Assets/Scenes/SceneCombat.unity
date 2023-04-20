@@ -159,13 +159,13 @@ MonoBehaviour:
   Akuma: {fileID: 0}
   Flash: {fileID: 8858490082027957730, guid: 00ab9c14b261ef04c88fe6479a40c291, type: 3}
   ReverseFlash: {fileID: 3921398894354582378, guid: 658e01ed987aa974eb10d8198c34c216, type: 3}
-  BatmanSwap: {fileID: 8318993732363395605, guid: 063b21d107bf73d4ca52df9871723444, type: 3}
+  BatmanSwap: {fileID: 5347367896956597514, guid: 704121792c61f8a47be0f7f7d814354b, type: 3}
   DioSwap: {fileID: 2140337465617984268, guid: 5128f442c0a7603448ae42c190b148a8, type: 3}
   DoomsdaySwap: {fileID: 6215255013137341257, guid: 8b2fd23258bade545b2fd68a2e2548e6, type: 3}
   AkumaSwap: {fileID: 0}
   FlashSwap: {fileID: 0}
   ReverseFlashSwap: {fileID: 3921398894354582378, guid: 6aebcfd26325265429d6a278e6ba0afd, type: 3}
-  zonespawnJ1: {x: 5, y: 5, z: 5}
+  zonespawnJ1: {x: 6, y: 6, z: 6}
   zonespawnJ2: {x: 5, y: 5, z: 5}
 --- !u!4 &609323041
 Transform:

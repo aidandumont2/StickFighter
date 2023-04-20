@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
     }public static void FinCombat()
         {
             Debug.Log("Fin du combat");
+            Fin.Time =  Temps.timeRemaining;
             SceneManager.LoadScene("SceneFinCombat");
         }
 }

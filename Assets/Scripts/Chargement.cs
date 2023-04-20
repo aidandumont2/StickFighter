@@ -35,6 +35,7 @@ public class Chargement : MonoBehaviour
         if (GameManager.PersonnageJ2 == "Batman")
         {
             assignationPersonnage2(BatmanSwap);
+
         }
         if (GameManager.PersonnageJ2 == "Dio")
         {
@@ -107,7 +108,5 @@ public class Chargement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(GameManager.PersonnageJ1);
-        Debug.Log(GameManager.PersonnageJ2);
     }
 }

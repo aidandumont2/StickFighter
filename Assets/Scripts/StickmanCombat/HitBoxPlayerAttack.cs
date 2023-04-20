@@ -18,9 +18,31 @@ public class HitBoxPlayerAttack : MonoBehaviour
             if (typeAttack == "Legere")
             {
                 refPlayerManager.lifepoint -= damageAttackLegere;
-            }else if (typeAttack == "Lourde")
+                if (refPlayerManager.gameObject.CompareTag("1"))
+                {
+                    Debug.Log("Vrai");
+                    Fin.player1Life = refPlayerManager.lifepoint;
+                    Debug.Log(Fin.player1Life);
+                }else if(refPlayerManager.gameObject.CompareTag("2"))
+                {
+                    Debug.Log("Vrai2");
+                    Fin.player2Life = refPlayerManager.lifepoint;
+                    Debug.Log(Fin.player2Life);
+                }
+            }
+            else if (typeAttack == "Lourde")
             {
                 refPlayerManager.lifepoint -= damageAttackLourde;
+                if (refPlayerManager.CompareTag("1"))
+                {
+                    Fin.player1Life = refPlayerManager.lifepoint;
+                    Debug.Log(Fin.player1Life);
+                }
+                else if (refPlayerManager.CompareTag("2"))
+                {
+                    Fin.player2Life = refPlayerManager.lifepoint;
+                    Debug.Log(Fin.player2Life);
+                }
             }
 
         }
@@ -30,7 +52,6 @@ public class HitBoxPlayerAttack : MonoBehaviour
     {
        
         if (collision.gameObject.tag != "Camp") { 
-            Debug.Log(collision.gameObject.GetComponentInParent<PlayerManager>());
             refPlayerManager = collision.gameObject.GetComponentInParent<PlayerManager>();
             isEnnemyUnderAttack = true;
         }
@@ -44,5 +65,10 @@ public class HitBoxPlayerAttack : MonoBehaviour
         }
         
         //Debug.Log(refPlayerManager);
+    }
+    private void Start()
+    {
+        Fin.player1Life = 100;
+        Fin.player2Life = 100;
     }
 }

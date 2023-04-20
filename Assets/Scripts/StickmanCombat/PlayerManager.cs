@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Unity.VisualScripting;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -35,7 +36,9 @@ public class PlayerManager : MonoBehaviour
         {
             numPlayer = "Player1";
             gameObject.GetComponent<PlayerMovement>().ChoixInputCamp1();
-        }else if(collision.gameObject.name == "Camp2")
+
+        }
+        else if(collision.gameObject.name == "Camp2")
         {
             numPlayer = "Player2";
             gameObject.GetComponent<PlayerMovement>().ChoixInputCamp2();

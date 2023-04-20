@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 2131003813625025449}
   m_Layer: 0
   m_Name: ReverseFlash
-  m_TagString: Untagged
+  m_TagString: 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,7 +258,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5172aebf00c7a724985ba100976059d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numPlayer: 
   refTMP: {fileID: 8890382669848176983}
   Camps: 
   isGrounded: 1

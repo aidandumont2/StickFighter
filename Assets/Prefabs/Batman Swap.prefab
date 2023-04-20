@@ -83,6 +83,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Batman Swap
       objectReference: {fileID: 0}
+    - target: {fileID: 5347367896956597514, guid: 4c4c679a8dcdc1b48ad8874e9e4d7d07, type: 3}
+      propertyPath: m_TagString
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6557982661173458398, guid: 4c4c679a8dcdc1b48ad8874e9e4d7d07, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8471540512622201496, guid: 4c4c679a8dcdc1b48ad8874e9e4d7d07, type: 3}
       propertyPath: hitBoxAttack
       value: 

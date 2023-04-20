@@ -4,9 +4,9 @@ using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
 
-public class Timer : MonoBehaviour
+public class Temps : MonoBehaviour
 {
-    public float timeRemaining = 60;
+    public static float timeRemaining = 60;
     public TextMeshProUGUI Times;
     // Start is called before the first frame update
     void Start()

@@ -9,6 +9,10 @@ TagManager:
   - BoutonMenu
   - EventSystem
   - Camp
+  - Player1
+  - Player2
+  - 1
+  - 2
   layers:
   - Default
   - TransparentFX

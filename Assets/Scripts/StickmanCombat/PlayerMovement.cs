@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     Animator anim;
+    
     /*private float speed = 5f;
     private float jumpspeed = 2f;*/
     public HitBoxPlayerAttack refHitBoxAttack;
@@ -22,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     private KeyCode saut;
     private KeyCode avancer;
     private KeyCode reculer;
-    private KeyCode attSpe;
+    public KeyCode attSpe;
     private KeyCode attLeg;
     private KeyCode attLour;
 
@@ -173,6 +174,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void ChoixInputCamp1()
     {
+        
         saut = KeyCode.Z;
         avancer = KeyCode.D;
         reculer = KeyCode.Q;
@@ -183,6 +185,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void ChoixInputCamp2()
     {
+        
         saut = KeyCode.UpArrow;
         avancer = KeyCode.RightArrow;
         reculer = KeyCode.LeftArrow;

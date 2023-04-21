@@ -434,6 +434,7 @@ MonoBehaviour:
   spriterenderer: {fileID: 5024609843453507369}
   spriteCrouch: {fileID: -2413806693520163455, guid: 3bff3a0fd51923b49adee7f56ba8bd1a, type: 3}
   spriteStand: {fileID: -9095717837082945937, guid: 41631ca23c08a6f4fb5c09d294b0f25a, type: 3}
+  attSpe: 0
 --- !u!114 &2761294550608743202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -446,7 +447,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dd4bbd97be68774490d54052dd612f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackSpecial: {fileID: 4998173305580363947, guid: 3868f131c8dd3ea46bd724eba35b9b5c, type: 3}
+  playermovement: {fileID: 753140556139257842}
+  attackSpecial: {fileID: 4998173305580363947, guid: d9087b69af729ba41bc3e4610a016f74, type: 3}
   player: {fileID: 4569362972707566836}
 --- !u!1 &2151551655612797060
 GameObject:
@@ -519,6 +521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b6db29740389954da21932602614bf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isEnnemyUnderAttack: 0
   damageAttackLegere: 5
   damageAttackLourde: 10
 --- !u!1 &4001105294961987227

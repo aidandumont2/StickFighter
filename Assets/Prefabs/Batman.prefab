@@ -783,6 +783,7 @@ MonoBehaviour:
   spriterenderer: {fileID: 5347367896956597512}
   spriteCrouch: {fileID: -2413806693520163455, guid: 3bff3a0fd51923b49adee7f56ba8bd1a, type: 3}
   spriteStand: {fileID: -9095717837082945937, guid: 41631ca23c08a6f4fb5c09d294b0f25a, type: 3}
+  attSpe: 0
 --- !u!50 &7055302341128754247
 Rigidbody2D:
   serializedVersion: 4
@@ -862,6 +863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dd4bbd97be68774490d54052dd612f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playermovement: {fileID: 8471540512622201496}
   attackSpecial: {fileID: 2169540149226213429, guid: b040afd5b3d6cea4083b0ad0a9c385af, type: 3}
   player: {fileID: 7177148557528460185}
 --- !u!114 &7177148557528460185

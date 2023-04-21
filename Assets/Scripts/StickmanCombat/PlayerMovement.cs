@@ -180,7 +180,7 @@ public class PlayerMovement : MonoBehaviour
         reculer = KeyCode.Q;
         attLeg = KeyCode.E;
         attLour = KeyCode.A;
-        attSpe = KeyCode.S;
+        attSpe = KeyCode.R;
     }
 
     public void ChoixInputCamp2()
@@ -189,8 +189,8 @@ public class PlayerMovement : MonoBehaviour
         saut = KeyCode.UpArrow;
         avancer = KeyCode.RightArrow;
         reculer = KeyCode.LeftArrow;
-        attLeg = KeyCode.V;
-        attLour = KeyCode.B;
-        attSpe = KeyCode.N;
+        attLeg = KeyCode.K;
+        attLour = KeyCode.J;
+        attSpe = KeyCode.L;
     }
 }

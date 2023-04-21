@@ -64,7 +64,7 @@ public class PlayerManager : MonoBehaviour
             if(tempsRegenStamina <= 0.00f)
             {
                stamina += 1;
-               tempsRegenStamina = 2.00f;
+               tempsRegenStamina = 1.20f;
             }
         }
         

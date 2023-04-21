@@ -429,7 +429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   refHitBoxAttack: {fileID: 2494250396872535822}
   player: {fileID: 4569362972707566836}
-  hitBoxAttack: {fileID: 0}
+  hitBoxAttack: {fileID: 3710680629113305796}
   rb: {fileID: 2262556686220574013}
   spriterenderer: {fileID: 5024609843453507369}
   spriteCrouch: {fileID: -2413806693520163455, guid: 3bff3a0fd51923b49adee7f56ba8bd1a, type: 3}

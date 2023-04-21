@@ -23,7 +23,6 @@ public class GameManager : MonoBehaviour
     {
         joueur1 = ChoixPersonnage1.gameObject.GetComponent<Image>();
         joueur2 = ChoixPersonnage2.gameObject.GetComponent<Image>();
-        print(PersonnageJ1 + " " + PersonnageJ2);
     }
    
     private void Update()

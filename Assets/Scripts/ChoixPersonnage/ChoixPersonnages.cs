@@ -18,7 +18,6 @@ public class ChoixPersonnages : MonoBehaviour
     public Sprite Dio;
     public Sprite Doomsday;
     public Sprite Akuma;
-    public Sprite Flash;
     public Sprite ReverseFlash;
     public static bool choix=false;
 
@@ -48,7 +47,7 @@ public class ChoixPersonnages : MonoBehaviour
             if (other == "Dio")
             {
                 Joueur1.gameObject.GetComponent<Image>().sprite = Dio;
-            Fin.player1 = Joueur1.gameObject.GetComponent<Image>().sprite;
+            Fin.player1 = Dio;
             Joueur1.gameObject.GetComponent<Image>().color = Color.white;
             GameManager.PersonnageJ1 = "Dio";
             
@@ -57,7 +56,7 @@ public class ChoixPersonnages : MonoBehaviour
             if (other == "Doomsday")
             {
                 Joueur1.gameObject.GetComponent<Image>().sprite = Doomsday;
-            Fin.player1 = Joueur1.gameObject.GetComponent<Image>().sprite;
+            Fin.player1 = Doomsday;
             Joueur1.gameObject.GetComponent<Image>().color = Color.white;
             GameManager.PersonnageJ1 = "Doomsday";
             
@@ -66,25 +65,16 @@ public class ChoixPersonnages : MonoBehaviour
             if (other == "Akuma")
             {
                 Joueur1.gameObject.GetComponent<Image>().sprite = Akuma;
-           Fin.player1 = Joueur1.gameObject.GetComponent<Image>().sprite;
+            Fin.player1 = Akuma;
             Joueur1.gameObject.GetComponent<Image>().color = Color.white;
             GameManager.PersonnageJ1 = "Akuma";
-            
-            choix = true;
-            }
-            if (other == "Flash")
-            {
-                Joueur1.gameObject.GetComponent<Image>().sprite = Flash;
-            Fin.player1 = Joueur1.gameObject.GetComponent<Image>().sprite;
-            Joueur1.gameObject.GetComponent<Image>().color = Color.white;
-            GameManager.PersonnageJ1 = "Flash";
             
             choix = true;
             }
             if (other == "ReverseFlash")
             {
                 Joueur1.gameObject.GetComponent<Image>().sprite = ReverseFlash;
-            Fin.player1 = Joueur1.gameObject.GetComponent<Image>().sprite;
+            Fin.player1 = ReverseFlash;
             Joueur1.gameObject.GetComponent<Image>().color = Color.white;
             GameManager.PersonnageJ1 = "ReverseFlash";
             
@@ -98,7 +88,7 @@ public class ChoixPersonnages : MonoBehaviour
             if (other == "Batman")
             {
                 Joueur2.gameObject.GetComponent<Image>().sprite = Batman;
-            Fin.player2 = Joueur2.gameObject.GetComponent<Image>().sprite;
+            Fin.player2 = Batman;
             Joueur2.gameObject.GetComponent<Image>().color = Color.white;
             GameManager.PersonnageJ2 = "Batman";
             
@@ -106,7 +96,7 @@ public class ChoixPersonnages : MonoBehaviour
             if (other == "Dio")
             {
                 Joueur2.gameObject.GetComponent<Image>().sprite = Dio;
-            Fin.player2 = Joueur2.gameObject.GetComponent<Image>().sprite;
+            Fin.player2 = Dio;
             Joueur2.gameObject.GetComponent<Image>().color = Color.white;
             GameManager.PersonnageJ2 = "Dio";
             
@@ -114,7 +104,7 @@ public class ChoixPersonnages : MonoBehaviour
             if (other == "Doomsday")
             {
                 Joueur2.gameObject.GetComponent<Image>().sprite = Doomsday;
-            Fin.player2 = Joueur2.gameObject.GetComponent<Image>().sprite;
+            Fin.player2 = Doomsday;
             Joueur2.gameObject.GetComponent<Image>().color = Color.white;
             GameManager.PersonnageJ2 = "Doomsday";
             
@@ -122,23 +112,15 @@ public class ChoixPersonnages : MonoBehaviour
             if (other == "Akuma")
             {
                 Joueur2.gameObject.GetComponent<Image>().sprite = Akuma;
-            Fin.player2 = Joueur2.gameObject.GetComponent<Image>().sprite;
+            Fin.player2 = Akuma;
             Joueur2.gameObject.GetComponent<Image>().color = Color.white;
             GameManager.PersonnageJ2 = "Akuma";
-            
-        }
-            if (other == "Flash")
-            {
-                Joueur2.gameObject.GetComponent<Image>().sprite = Flash;
-            Fin.player2 = Joueur2.gameObject.GetComponent<Image>().sprite;
-            Joueur2.gameObject.GetComponent<Image>().color = Color.white;
-            GameManager.PersonnageJ2 = "Flash";
             
         }
             if (other == "ReverseFlash")
             {
                 Joueur2.gameObject.GetComponent<Image>().sprite = ReverseFlash;
-            Fin.player2 = Joueur2.gameObject.GetComponent<Image>().sprite;
+            Fin.player2 = ReverseFlash;
             Joueur2.gameObject.GetComponent<Image>().color = Color.white;
             GameManager.PersonnageJ2 = "ReverseFlash";
             
@@ -148,7 +130,7 @@ public class ChoixPersonnages : MonoBehaviour
     public void SceneChargement(string sceneSuivante)
     {
 
-        if (Joueur1.gameObject.GetComponent<Image>().sprite != null && Joueur1.gameObject.GetComponent<Image>().sprite != null)
+        if (Joueur1.gameObject.GetComponent<Image>().sprite != null && Joueur2.gameObject.GetComponent<Image>().sprite != null)
         {
             SceneManager.LoadScene(sceneSuivante);
         }

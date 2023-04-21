@@ -18,15 +18,21 @@ public class Fin : MonoBehaviour
     public GameObject Looser;
     private void Start()
     {
+        Debug.Log(player1);
+        Debug.Log(player2);
         Times.text = Time.ToString();
+        Debug.Log(player1Life);
+        Debug.Log(player2Life);
         if (player1Life > player2Life)
         {
+            Debug.Log("J1");
             Winner.gameObject.GetComponent<Image>().sprite = player1;
             Gagnant.text = player1Life.ToString();
             Looser.gameObject.GetComponent<Image>().sprite = player2;
             Perdant.text = player2Life.ToString();
-        }else if(player1Life > player2Life)
+        }else if(player1Life < player2Life)
         {
+            Debug.Log("J2");
             Winner.gameObject.GetComponent<Image>().sprite = player2;
             Gagnant.text = player2Life.ToString();
             Looser.gameObject.GetComponent<Image>().sprite = player1;

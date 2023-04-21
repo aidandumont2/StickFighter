@@ -18,7 +18,7 @@ public class PlayerAttacks : MonoBehaviour
         if (Input.GetKey(KeyCode.Space) && player.isCrouching == false && player.isGrounded == true && player.isMoving == false && player.isSpecialAtt == false && player.stamina >=2)
         {
             anim.Play("LancerBatarang");
-            Instantiate(attackSpecial, transform.position + new Vector3(1.5f,0,0), Quaternion.identity);
+            Instantiate(attackSpecial, transform.position + new Vector3(2.5f,0,0), Quaternion.identity);
             player.stamina -= 2;
             player.isSpecialAtt = true;
             StartCoroutine(DelaySpeAttack());

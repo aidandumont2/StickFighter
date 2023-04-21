@@ -1290,7 +1290,7 @@ GameObject:
   - component: {fileID: 1588720704}
   - component: {fileID: 1588720703}
   m_Layer: 5
-  m_Name: StickFighter
+  m_Name: PixelFighter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1336,7 +1336,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Stick Fighter
+  m_text: 'PixelFighter
 
 '
   m_isRightToLeft: 0
@@ -1459,6 +1459,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b463c8e094485047a6ee11d1bfa4def, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChoixPersonnage1: {fileID: 0}
+  ChoixPersonnage2: {fileID: 0}
+  bouton: {fileID: 0}
 --- !u!1 &2010159251
 GameObject:
   m_ObjectHideFlags: 0

@@ -26,7 +26,7 @@ public class Chargement : MonoBehaviour
     void Start()
     {
         AssignationJ1();
-        AssignationJ2();
+        //AssignationJ2();
     }
    
     

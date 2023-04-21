@@ -871,7 +871,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &2663269809172492081
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -951,7 +951,7 @@ GameObject:
   - component: {fileID: 5499176268002033661}
   m_Layer: 0
   m_Name: HitBoxAttack
-  m_TagString: Untagged
+  m_TagString: HitBoxAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1037,7 +1037,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7999506227227810436}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.074999996, y: 0.074999996, z: 1}
   m_ConstrainProportionsScale: 0

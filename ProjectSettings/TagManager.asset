@@ -13,6 +13,7 @@ TagManager:
   - Player2
   - 1
   - 2
+  - HitBoxAttack
   layers:
   - Default
   - TransparentFX

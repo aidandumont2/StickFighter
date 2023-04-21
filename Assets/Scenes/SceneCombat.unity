@@ -165,7 +165,7 @@ MonoBehaviour:
   AkumaSwap: {fileID: 8858490082027957730, guid: deda6c42c459eb84fba6164f20990867, type: 3}
   FlashSwap: {fileID: 0}
   ReverseFlashSwap: {fileID: 3921398894354582378, guid: 6aebcfd26325265429d6a278e6ba0afd, type: 3}
-  zonespawnJ1: {x: 5, y: 5, z: 5}
+  zonespawnJ1: {x: 6, y: 6, z: 6}
   zonespawnJ2: {x: 5, y: 5, z: 5}
 --- !u!4 &609323041
 Transform:

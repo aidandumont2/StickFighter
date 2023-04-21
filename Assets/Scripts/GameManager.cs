@@ -7,6 +7,7 @@ using UnityEngine.UI;
 using TMPro;
 using Image = UnityEngine.UI.Image;
 
+
 public class GameManager : MonoBehaviour
 {
     public static string personnages;
@@ -27,13 +28,16 @@ public class GameManager : MonoBehaviour
    
     private void Update()
     {
-        
-        if (joueur1.color != Color.red && joueur2.color != Color.blue)
+        if (SceneManager.GetActiveScene().name != "ChoixCamps" )
         {
-            Debug.Log(joueur1 + " " + joueur2);
-            Debug.Log("Les 2 on un perso");
-            bouton.GetComponent<Image>().color = Color.red;
+            if (joueur1.color != Color.red && joueur2.color != Color.blue)
+               {
+                Debug.Log(joueur1 + " " + joueur2);
+                Debug.Log("Les 2 on un perso");
+                bouton.GetComponent<Image>().color = Color.red;
+            }
         }
+        
  
     }public static void FinCombat()
         {

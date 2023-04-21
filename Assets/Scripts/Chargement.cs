@@ -61,7 +61,7 @@ public class Chargement : MonoBehaviour
     public void assignationPersonnage1(GameObject other)
     {
         GameObject instantiated = Instantiate(other);
-        instantiated.transform.position = new Vector3(-4.427015f, -2.85f, 0);
+        instantiated.transform.position = new Vector3(-4.427015f, -2f, 0);
         AssignationJ2();
         Gizmos.DrawWireCube(transform.position, zonespawnJ1);
     }
@@ -102,11 +102,5 @@ public class Chargement : MonoBehaviour
     {
         GameObject instantiated = Instantiate(other);
         instantiated.transform.position = new Vector3(4.36f, -3.2f, -4.382038f);
-       // Gizmos.DrawWireCube(transform.position, zonespawnJ2);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
     }
 }
